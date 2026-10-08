@@ -1,0 +1,66 @@
+name: Atualizar dados do painel
+
+# Coleta os dados das APIs públicas e publica o resultado no branch "dados".
+# O site lê o JSON desse branch, então os números se atualizam sem precisar
+# de novo deploy e sem gerar commits no branch principal (que o Lovable sincroniza).
+
+on:
+  schedule:
+    - cron: "17 */3 * * *" # a cada 3 horas
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - scripts/coletar-dados.mjs
+      - .github/workflows/atualizar-dados.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+
+jobs:
+  coletar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Prepara o branch de dados
+        run: |
+          git config user.name "peso-do-estado-bot"
+          git config user.email "peso-do-estado-bot@users.noreply.github.com"
+          if git fetch origin dados:dados 2>/dev/null; then
+            git worktree add ../dados dados
+          else
+            git worktree add --detach ../dados
+            cd ../dados
+            git checkout --orphan dados
+            git rm -rf --quiet . || true
+            cp ../${{ github.event.repository.name }}/src/data/painel.json painel.json
+          fi
+
+      - name: Coleta os dados
+        env:
+          # Opcional: cadastre a chave gratuita em
+          # https://portaldatransparencia.gov.br/api-de-dados/cadastrar-email
+          # e salve como secret do repositório com este nome.
+          PORTAL_TRANSPARENCIA_API_KEY: ${{ secrets.PORTAL_TRANSPARENCIA_API_KEY }}
+        run: node scripts/coletar-dados.mjs --saida ../dados/painel.json
+
+      - name: Publica no branch dados
+        run: |
+          cd ../dados
+          git add painel.json
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+            exit 0
+          fi
+          git commit -m "dados: atualização $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin dados
