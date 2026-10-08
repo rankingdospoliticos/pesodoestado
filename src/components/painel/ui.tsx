@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { Component, type ReactNode } from "react";
 import type { Unidade } from "@/lib/painel/equivalencias";
 import { Equivale } from "./equivale";
 
@@ -86,4 +86,30 @@ export function AoVivo({ coletadoEm, rotulo = "Atualizado automaticamente" }: { 
   const idadeH = (Date.now() - new Date(coletadoEm).getTime()) / 36e5;
   const quando = new Date(coletadoEm).toLocaleString("pt-BR", { timeZone: "America/Sao_Paulo", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }).replace(".", "");
   return <span className={`live${idadeH > 48 ? " stale" : ""}`}>{rotulo} · {quando}</span>;
+}
+
+/**
+ * Limite de erro: se um capítulo quebrar (por exemplo, uma fonte de dados mudou de
+ * formato), só ele mostra um aviso; o resto do painel continua funcionando.
+ * Volta a tentar quando chegam dados novos (`chave` muda).
+ */
+export class Protegido extends Component<{ nome: string; chave?: string; children: ReactNode }, { erro: boolean }> {
+  override state = { erro: false };
+  static getDerivedStateFromError() {
+    return { erro: true };
+  }
+  override componentDidCatch(e: unknown) {
+    console.error(`[painel] o capítulo "${this.props.nome}" não carregou`, e);
+  }
+  override componentDidUpdate(antes: { chave?: string }) {
+    if (this.state.erro && antes.chave !== this.props.chave) this.setState({ erro: false });
+  }
+  override render() {
+    if (!this.state.erro) return this.props.children;
+    return (
+      <div className="panel">
+        <p className="note">O capítulo “{this.props.nome}” não carregou agora. Os demais dados continuam valendo; tente recarregar a página mais tarde.</p>
+      </div>
+    );
+  }
 }

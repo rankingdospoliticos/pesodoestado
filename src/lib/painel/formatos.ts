@@ -37,7 +37,8 @@ export function data(iso?: string | null): string {
 }
 
 /** Capitaliza nomes em CAIXA ALTA: "LAÉRCIO OLIVEIRA" → "Laércio Oliveira" */
-export function nomeProprio(s: string): string {
+export function nomeProprio(s?: string | null): string {
+  if (!s) return "";
   if (s !== s.toUpperCase()) return s;
   const minus = new Set(["da", "de", "do", "das", "dos", "e"]);
   return s
