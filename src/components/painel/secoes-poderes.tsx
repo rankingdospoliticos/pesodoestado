@@ -144,7 +144,7 @@ function TabelaParlamentares({ lista, link, casa }: { lista: Parlamentar[]; link
             {lista.slice(0, n).map((x, i) => (
               <tr key={x.id}>
                 <td className="rank-n">{i + 1}</td>
-                <td><Ext href={link(x)}>{nomeProprio(x.nome)}</Ext></td>
+                <td><Ext href={link(x)}>{nomeProprio(x.nome) || `${casa} ${x.id}`}</Ext></td>
                 <td>{[x.partido, x.uf].filter(Boolean).join("-") || "—"}</td>
                 <td className="n">{reais(x.valor, 0).replace(" mil", " mil")}</td>
               </tr>

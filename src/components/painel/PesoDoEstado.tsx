@@ -4,7 +4,7 @@ import { fmt, mesAno, reais } from "@/lib/painel/formatos";
 import { judiciario, emendas } from "@/data/curados";
 import { TooltipProvider } from "./graficos";
 import { LogoRanking } from "./LogoRanking";
-import { Parte } from "./ui";
+import { Parte, Protegido } from "./ui";
 import { Conta, Traduzindo, Orcamento, Fecho, arrecadacao } from "./secoes-abertura";
 import { Contas, Burocracia, Liberdade, Estados, serie } from "./secoes-economia";
 import { Funcionalismo, Salarios, Industria, ZonaFranca, Logistica, Retorno } from "./secoes-sociedade";
@@ -125,7 +125,7 @@ export function PesoDoEstado() {
               o que ele cobra de quem produz e o que devolve. Banco Central, IBGE, Câmara, Senado e Banco Mundial são lidos automaticamente das APIs oficiais.
             </p>
             <div className="stamp">Dados automáticos coletados em {atualizado} · cada número traz sua data-base</div>
-            <Tickers p={p} />
+            <Protegido nome="Contadores" chave={p.geradoEm}><Tickers p={p} /></Protegido>
           </div>
         </header>
 
@@ -134,34 +134,34 @@ export function PesoDoEstado() {
         <main>
           <div className="wrap">
             <Parte n="I" titulo="A conta" texto="Antes de qualquer gasto, a pergunta que importa: quanto sai do bolso de quem trabalha e produz?" />
-            <Conta p={p} />
-            <Traduzindo p={p} />
+            <Protegido nome="A conta" chave={p.geradoEm}><Conta p={p} /></Protegido>
+            <Protegido nome="O que daria para fazer" chave={p.geradoEm}><Traduzindo p={p} /></Protegido>
 
             <Parte n="II" titulo="Para onde vai" texto="Arrecadação recorde, e mesmo assim o dinheiro não basta." />
-            <Orcamento p={p} />
-            <Contas p={p} />
+            <Protegido nome="O orçamento" chave={p.geradoEm}><Orcamento p={p} /></Protegido>
+            <Protegido nome="O rombo" chave={p.geradoEm}><Contas p={p} /></Protegido>
 
             <Parte n="III" titulo="A máquina" texto="Quem trabalha para o Estado, quanto ganha, e quanto custam os Poderes que decidem o orçamento." />
-            <Funcionalismo p={p} />
-            <Salarios />
-            <Judiciario p={p} />
-            <Congresso p={p} />
-            <CamaraSenado p={p} />
+            <Protegido nome="Funcionalismo" chave={p.geradoEm}><Funcionalismo p={p} /></Protegido>
+            <Protegido nome="Salários" chave={p.geradoEm}><Salarios /></Protegido>
+            <Protegido nome="Judiciário" chave={p.geradoEm}><Judiciario p={p} /></Protegido>
+            <Protegido nome="Congresso" chave={p.geradoEm}><Congresso p={p} /></Protegido>
+            <Protegido nome="Câmara e Senado ao vivo" chave={p.geradoEm}><CamaraSenado p={p} /></Protegido>
 
             <Parte n="IV" titulo="Para poucos" texto="Além de gastar, o Estado abre mão de receita e protege setores escolhidos. Quem paga é o resto." />
-            <Industria p={p} />
-            <ZonaFranca />
+            <Protegido nome="Subsídios" chave={p.geradoEm}><Industria p={p} /></Protegido>
+            <Protegido nome="Zona Franca" chave={p.geradoEm}><ZonaFranca /></Protegido>
 
             <Parte n="V" titulo="O peso sobre quem produz" texto="O custo do Estado não é só o imposto: é o tempo, as regras e a infraestrutura que falta." />
-            <Burocracia />
-            <Logistica />
-            <Liberdade />
-            <Estados p={p} />
+            <Protegido nome="Burocracia" chave={p.geradoEm}><Burocracia /></Protegido>
+            <Protegido nome="Logística" chave={p.geradoEm}><Logistica /></Protegido>
+            <Protegido nome="Liberdade econômica" chave={p.geradoEm}><Liberdade /></Protegido>
+            <Protegido nome="Estados" chave={p.geradoEm}><Estados p={p} /></Protegido>
 
             <Parte n="VI" titulo="O que volta" texto="Depois de pagar a conta, o que o contribuinte recebe de volta?" />
-            <Retorno />
-            <Fecho p={p} />
-            <Fontes p={p} origem={origem} />
+            <Protegido nome="O que volta" chave={p.geradoEm}><Retorno /></Protegido>
+            <Protegido nome="Em uma tela" chave={p.geradoEm}><Fecho p={p} /></Protegido>
+            <Protegido nome="Fontes" chave={p.geradoEm}><Fontes p={p} origem={origem} /></Protegido>
           </div>
         </main>
 

@@ -27,6 +27,8 @@ const SO = args.so ? new Set(args.so.split(",")) : null; // ex.: --so bcb,camara
 const AGORA = new Date();
 const ANO = AGORA.getUTCFullYear();
 const UA = "PesoDoEstado/1.0 (+https://ranking.org.br; coleta de dados públicos)";
+/** Alguns serviços (IBGE, Banco Mundial) recusam robôs com identificação própria vindos de nuvem. */
+const UA_NAVEGADOR = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0 Safari/537.36 PesoDoEstado/1.0";
 
 /* ---------------- utilidades ---------------- */
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -135,10 +137,11 @@ async function fonteBCB() {
 async function fonteCamara() {
   const url = `https://www.camara.leg.br/cotas/Ano-${ANO}.csv.zip`;
   const { corpo, meta } = await http(url, { tipo: "binario", timeout: 300_000 });
-  const texto = unzipPrimeiro(corpo).toString("utf8");
+  const texto = unzipPrimeiro(corpo).toString("utf8").replace(/^\uFEFF/, ""); // o arquivo vem com BOM, que estragava o nome da 1ª coluna
   const linhas = parseCSV(texto);
-  const cab = linhas.shift();
+  const cab = linhas.shift().map((h) => h.replace(/^\uFEFF/, "").trim());
   const ix = Object.fromEntries(cab.map((h, i) => [h, i]));
+  if (ix.txNomeParlamentar == null) throw new Error(`coluna txNomeParlamentar não encontrada no CSV (cabeçalho: ${cab.slice(0, 5).join(", ")}…)`);
   let total = 0, lancamentos = 0, ultimaData = "";
   const porMes = {}, porCategoria = {}, porPartido = {}, porUF = {}, porDeputado = {}, porFornecedor = {};
   for (const l of linhas) {
@@ -272,7 +275,7 @@ async function fonteSenado() {
 
 /** IBGE — população estimada (para valores por habitante). */
 async function fonteIBGE() {
-  const { corpo } = await http("https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N1[all]");
+  const { corpo } = await http("https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N1%5Ball%5D", { headers: { "user-agent": UA_NAVEGADOR, accept: "application/json" } });
   const serie = corpo[0].resultados[0].series[0].serie;
   const [ano, valor] = Object.entries(serie)[0];
   return { populacao: Number(valor), ano: Number(ano), url: "https://sidra.ibge.gov.br/tabela/6579" };
@@ -287,7 +290,7 @@ async function fonteBancoMundial() {
   };
   const out = {};
   for (const [chave, cod] of Object.entries(ind)) {
-    const { corpo } = await http(`https://api.worldbank.org/v2/country/${paises}/indicator/${cod}?format=json&mrnev=1&per_page=100`);
+    const { corpo } = await http(`https://api.worldbank.org/v2/country/${paises}/indicator/${cod}?format=json&mrnev=1&per_page=100`, { headers: { "user-agent": UA_NAVEGADOR, accept: "application/json" } });
     out[chave] = {
       indicador: cod,
       url: `https://data.worldbank.org/indicator/${cod}`,
