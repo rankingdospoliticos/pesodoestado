@@ -1,42 +1,40 @@
 {
- "geradoEm": "2026-10-08T21:10:53.528Z",
+ "geradoEm": "2026-10-08T21:17:29.005Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-08T21:11:16.055Z",
-   "duracaoMs": 22526
+   "coletadoEm": "2026-10-08T21:17:37.894Z",
+   "duracaoMs": 8888
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-08T21:11:21.003Z",
-   "duracaoMs": 4948
+   "coletadoEm": "2026-10-08T21:17:42.577Z",
+   "duracaoMs": 4682
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-08T21:11:43.940Z",
-   "duracaoMs": 22937
+   "coletadoEm": "2026-10-08T21:18:01.842Z",
+   "duracaoMs": 19265
   },
   "ibge": {
    "nome": "IBGE (população)",
-   "status": "erro",
-   "erro": "HTTP 400 em https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N1[all]",
-   "tentadoEm": "2026-10-08T21:10:53.528Z",
-   "coletadoEm": "2026-10-08T17:30:00.000Z"
+   "status": "ok",
+   "coletadoEm": "2026-10-08T21:18:02.647Z",
+   "duracaoMs": 805
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
-   "status": "erro",
-   "erro": "HTTP 403 em https://api.worldbank.org/v2/country/BRA;WLD;ARG;CHL;MEX;CHN;IND;ZAF;USA;EUU;JPN/indicator/NE.TRD.GNFS.ZS?format=json&mrnev=1&per_page=100",
-   "tentadoEm": "2026-10-08T21:10:53.528Z",
-   "coletadoEm": "2026-10-08T17:30:00.000Z"
+   "status": "ok",
+   "coletadoEm": "2026-10-08T21:18:11.193Z",
+   "duracaoMs": 8546
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-08T21:10:53.528Z"
+   "verificadoEm": "2026-10-08T21:17:29.005Z"
   }
  },
  "dados": {
@@ -1449,120 +1447,140 @@
    "maioresGastos": [
     {
      "id": 74454,
+     "nome": "Eunício Oliveira",
      "partido": "MDB",
      "uf": "CE",
      "valor": 484466
     },
     {
      "id": 220538,
+     "nome": "Albuquerque",
      "partido": "REPUBLICANOS",
      "uf": "RR",
      "valor": 467679
     },
     {
      "id": 191923,
+     "nome": "Flávio Nogueira",
      "partido": "PT",
      "uf": "PI",
      "valor": 464898
     },
     {
      "id": 230768,
+     "nome": "Zé Adriano",
      "partido": "PP",
      "uf": "AC",
      "valor": 464246
     },
     {
      "id": 204426,
+     "nome": "Carlos Veras",
      "partido": "PT",
      "uf": "PE",
      "valor": 463693
     },
     {
      "id": 220624,
+     "nome": "Robinson Faria",
      "partido": "PP",
      "uf": "RN",
      "valor": 461399
     },
     {
      "id": 224117,
+     "nome": "Gabriel Mota",
      "partido": "UNIÃO",
      "uf": "RR",
      "valor": 454515
     },
     {
      "id": 220675,
+     "nome": "Antônio Doido",
      "partido": "MDB",
      "uf": "PA",
      "valor": 444519
     },
     {
      "id": 74090,
+     "nome": "Átila Lins",
      "partido": "PSD",
      "uf": "AM",
      "valor": 434596
     },
     {
      "id": 220544,
+     "nome": "Antonio Andrade",
      "partido": "PSDB",
      "uf": "TO",
      "valor": 428949
     },
     {
      "id": 178895,
+     "nome": "Misael Varella",
      "partido": "PSD",
      "uf": "MG",
      "valor": 428866
     },
     {
      "id": 220551,
+     "nome": "Franciane Bayer",
      "partido": "REPUBLICANOS",
      "uf": "RS",
      "valor": 423811
     },
     {
      "id": 160556,
+     "nome": "Padre João",
      "partido": "PT",
      "uf": "MG",
      "valor": 422159
     },
     {
      "id": 188097,
+     "nome": "Merlong Solano",
      "partido": "PT",
      "uf": "PI",
      "valor": 421835
     },
     {
      "id": 178929,
+     "nome": "Diego Garcia",
      "partido": "UNIÃO",
      "uf": "PR",
      "valor": 420502
     },
     {
      "id": 74374,
+     "nome": "Geraldo Resende",
      "partido": "UNIÃO",
      "uf": "MS",
      "valor": 416628
     },
     {
      "id": 204512,
+     "nome": "Delegado Marcelo Freitas",
      "partido": "UNIÃO",
      "uf": "MG",
      "valor": 415066
     },
     {
      "id": 204388,
+     "nome": "Bibo Nunes",
      "partido": "PL",
      "uf": "RS",
      "valor": 414469
     },
     {
      "id": 220572,
+     "nome": "Marussa Boldrin",
      "partido": "REPUBLICANOS",
      "uf": "GO",
      "valor": 413872
     },
     {
      "id": 160559,
+     "nome": "Alceu Moreira",
      "partido": "MDB",
      "uf": "RS",
      "valor": 412110
@@ -1884,22 +1902,16 @@
     "url": "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS",
     "valores": [
      {
-      "pais": "BRA",
-      "nome": "Brazil",
-      "ano": 2025,
-      "valor": 35.29
-     },
-     {
-      "pais": "WLD",
-      "nome": "World",
-      "ano": 2025,
-      "valor": 68.49
-     },
-     {
       "pais": "ARG",
       "nome": "Argentina",
       "ano": 2025,
       "valor": 30.36
+     },
+     {
+      "pais": "BRA",
+      "nome": "Brazil",
+      "ano": 2025,
+      "valor": 35.29
      },
      {
       "pais": "CHL",
@@ -1908,22 +1920,46 @@
       "valor": 64.98
      },
      {
-      "pais": "MEX",
-      "nome": "Mexico",
-      "ano": 2025,
-      "valor": 79.92
-     },
-     {
       "pais": "CHN",
       "nome": "China",
       "ano": 2025,
       "valor": 37.96
      },
      {
+      "pais": "EUU",
+      "nome": "European Union",
+      "ano": 2025,
+      "valor": 90.14
+     },
+     {
       "pais": "IND",
       "nome": "India",
       "ano": 2025,
       "valor": 46.27
+     },
+     {
+      "pais": "JPN",
+      "nome": "Japan",
+      "ano": 2024,
+      "valor": 44.85
+     },
+     {
+      "pais": "MEX",
+      "nome": "Mexico",
+      "ano": 2025,
+      "valor": 79.92
+     },
+     {
+      "pais": "USA",
+      "nome": "United States",
+      "ano": 2024,
+      "valor": 25.02
+     },
+     {
+      "pais": "WLD",
+      "nome": "World",
+      "ano": 2025,
+      "valor": 68.49
      },
      {
       "pais": "ZAF",
@@ -1938,28 +1974,22 @@
     "url": "https://data.worldbank.org/indicator/TM.TAX.MRCH.SM.AR.ZS",
     "valores": [
      {
-      "pais": "BRA",
-      "nome": "Brazil",
-      "ano": 2022,
-      "valor": 13.29
-     },
-     {
       "pais": "ARG",
       "nome": "Argentina",
       "ano": 2022,
       "valor": 11.95
      },
      {
-      "pais": "IND",
-      "nome": "India",
+      "pais": "BRA",
+      "nome": "Brazil",
       "ano": 2022,
-      "valor": 10.06
+      "valor": 13.29
      },
      {
-      "pais": "ZAF",
-      "nome": "South Africa",
+      "pais": "CHL",
+      "nome": "Chile",
       "ano": 2022,
-      "valor": 7.31
+      "valor": 1.03
      },
      {
       "pais": "CHN",
@@ -1968,10 +1998,22 @@
       "valor": 5.36
      },
      {
-      "pais": "USA",
-      "nome": "United States",
+      "pais": "EUU",
+      "nome": "European Union",
       "ano": 2022,
-      "valor": 2.72
+      "valor": 1.95
+     },
+     {
+      "pais": "IND",
+      "nome": "India",
+      "ano": 2022,
+      "valor": 10.06
+     },
+     {
+      "pais": "JPN",
+      "nome": "Japan",
+      "ano": 2022,
+      "valor": 1.99
      },
      {
       "pais": "MEX",
@@ -1980,10 +2022,16 @@
       "valor": 2.69
      },
      {
-      "pais": "CHL",
-      "nome": "Chile",
+      "pais": "USA",
+      "nome": "United States",
       "ano": 2022,
-      "valor": 1.03
+      "valor": 2.72
+     },
+     {
+      "pais": "ZAF",
+      "nome": "South Africa",
+      "ano": 2022,
+      "valor": 7.31
      }
     ]
    }
