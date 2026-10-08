@@ -34,6 +34,8 @@ scripts/coletar-dados.mjs  ──grava──▶  branch "dados"/painel.json  ◀
 
 ### Dados curados (atualização manual)
 
+A página é uma narrativa em seis partes: **I. A conta** (quanto se paga e o que isso equivale), **II. Para onde vai** (orçamento, déficit, juros), **III. A máquina** (servidores, salários, Judiciário, Congresso, Câmara e Senado ao vivo), **IV. Para poucos** (subsídios, Zona Franca), **V. O peso sobre quem produz** (burocracia, logística, liberdade econômica, estados) e **VI. O que volta**. A ordem está em `PesoDoEstado.tsx`.
+
 Indicadores que saem em relatórios anuais (Heritage, Fraser, Mackenzie, CNJ Justiça em Números, IBPT, PISA, IPC, Anuário de Segurança, LOA etc.) ficam em **`src/data/curados.ts`**, cada um com fonte e data. Para atualizar, edite o número no arquivo, direto no GitHub ou pelo Lovable.
 
 ---
@@ -75,7 +77,10 @@ De tempos em tempos, vale atualizar a cópia embutida (`src/data/painel.json`) c
 |---|---|
 | `src/routes/index.tsx` | rota da página, título e metadados |
 | `src/components/painel/PesoDoEstado.tsx` | cabeçalho, contadores, menu, rodapé e ordem das seções |
-| `src/components/painel/secoes-*.tsx` | as seções do painel |
+| `src/components/painel/secoes-*.tsx` | os capítulos, na ordem da narrativa: abertura (a conta, equivalências, orçamento, fecho), economia, sociedade e Poderes |
+| `src/components/painel/MapaBrasil.tsx` | mapa interativo dos estados (contorno em `src/data/mapa-brasil.ts`, CC BY 4.0) |
+| `src/components/painel/visuais.tsx` | visuais sob medida: waffle, treemap, bolhas, halteres, termômetro, versus, calendário |
+| `src/lib/painel/equivalencias.ts` | custos usados nas comparações (casa popular, creche, UBS, hospital do câncer, piso do professor…), com fonte |
 | `src/components/painel/graficos.tsx` | gráficos em SVG (barras, linhas, pilhas) com tooltip |
 | `src/components/painel/painel.css` | identidade visual do Ranking (cores, Poppins e Open Sans) |
 | `src/lib/painel/dados.ts` | tipos e carregamento dos dados automáticos |

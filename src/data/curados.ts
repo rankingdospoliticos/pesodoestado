@@ -46,6 +46,9 @@ export const imlee: Record<string, number> = { SP: 6.26, GO: 6.12, ES: 6.09, RJ:
 export const cnaeEstadual: Record<string, number | "lei" | "sem"> = { PR: 975, GO: 960, MG: 945, SE: 936, SP: 927, PI: 908, SC: 896, PE: 846, RS: 770, ES: 620, MS: 612, MA: 572, RJ: 532, AC: 298, AL: 298, MT: 290, DF: 287, PA: 264, RN: "lei", RO: "lei", AP: "lei", RR: "lei", BA: "sem", AM: "sem", CE: "sem", PB: "sem", TO: "sem" };
 /** % de municípios com lei de liberdade econômica (ILISP, jul/2026; RS = 261/497). */
 export const municipiosLLE: Record<string, number> = { SP: 100, ES: 93.6, SC: 85.1, MG: 71.8, RS: 52.5, MS: 51.9, AL: 27.5, CE: 26.1, AP: 25, MT: 23.2, BA: 20.6, RR: 20, MA: 18.4, RO: 17.3, PE: 16.8, PA: 16, PI: 14.3, AC: 13.6, PB: 12.6, SE: 10.7, GO: 9.8, RN: 7.8, TO: 5.8, AM: 3.2 };
+/** Cadeiras de deputado federal por UF (513 no total, legislatura 2023–2027). */
+export const cadeirasCamara: Record<string, number> = { SP: 70, MG: 53, RJ: 46, BA: 39, RS: 31, PR: 30, PE: 25, CE: 22, MA: 18, GO: 17, PA: 17, SC: 16, PB: 12, ES: 10, PI: 10, AL: 9, AC: 8, AM: 8, AP: 8, DF: 8, MS: 8, MT: 8, RN: 8, RO: 8, RR: 8, SE: 8, TO: 8 };
+export const regiaoUF: Record<string, string> = { AC: "Norte", AM: "Norte", AP: "Norte", PA: "Norte", RO: "Norte", RR: "Norte", TO: "Norte", AL: "Nordeste", BA: "Nordeste", CE: "Nordeste", MA: "Nordeste", PB: "Nordeste", PE: "Nordeste", PI: "Nordeste", RN: "Nordeste", SE: "Nordeste", DF: "Centro-Oeste", GO: "Centro-Oeste", MS: "Centro-Oeste", MT: "Centro-Oeste", ES: "Sudeste", MG: "Sudeste", RJ: "Sudeste", SP: "Sudeste", PR: "Sul", RS: "Sul", SC: "Sul" };
 export const lleNacional = { municipios: 2551, total: 5570, pct: 45.8, data: "2026-10-07", url: "https://liberdadeparatrabalhar.com.br/" };
 
 /* ---------- Contas e impostos ---------- */

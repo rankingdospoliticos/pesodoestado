@@ -1,20 +1,40 @@
 import type { ReactNode } from "react";
+import type { Unidade } from "@/lib/painel/equivalencias";
+import { Equivale } from "./equivale";
 
-export function Secao({ id, k, titulo, children, intro }: { id: string; k: string; titulo: string; intro?: ReactNode; children: ReactNode }) {
+export function Secao({ id, k, n, titulo, children, intro, ponte }: {
+  id: string; k: string; n?: number; titulo: string; intro?: ReactNode; children: ReactNode;
+  /** frase final que liga este capítulo ao próximo */
+  ponte?: ReactNode;
+}) {
   return (
     <section id={id}>
       <div className="sec-head">
-        <span className="k">{k}</span>
+        <span className="k">{n != null ? <span className="cap-n">{n}</span> : null}{k}</span>
         <h2>{titulo}</h2>
         {intro ? <p>{intro}</p> : null}
       </div>
       {children}
+      {ponte ? <p className="ponte">{ponte}</p> : null}
     </section>
   );
 }
 
-export function Kpi({ v, u, l, s, alerta, pill, pillTipo = "crit", fundo }: {
+/** Divisória entre as partes da narrativa. */
+export function Parte({ id, n, titulo, texto }: { id?: string; n: string; titulo: string; texto: ReactNode }) {
+  return (
+    <div className="parte" id={id}>
+      <span className="parte-n">Parte {n}</span>
+      <h2 className="parte-t">{titulo}</h2>
+      <p className="parte-x">{texto}</p>
+    </div>
+  );
+}
+
+export function Kpi({ v, u, l, s, alerta, pill, pillTipo = "crit", fundo, eq, eqUn }: {
   v: ReactNode; u?: string; l: ReactNode; s?: ReactNode; alerta?: boolean; pill?: string; pillTipo?: "crit" | "good" | "neu"; fundo?: boolean;
+  /** valor em reais para mostrar a equivalência "dá para pagar..." */
+  eq?: number | undefined; eqUn?: Unidade[];
 }) {
   return (
     <div className={`kpi${alerta ? " alert" : ""}`} style={fundo ? { background: "var(--surface-2)" } : undefined}>
@@ -25,6 +45,7 @@ export function Kpi({ v, u, l, s, alerta, pill, pillTipo = "crit", fundo }: {
       </div>
       <div className="l">{l}</div>
       {s ? <div className="s">{s}</div> : null}
+      {eq ? <Equivale valor={eq} {...(eqUn ? { un: eqUn } : {})} /> : null}
     </div>
   );
 }
