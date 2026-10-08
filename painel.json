@@ -1,0 +1,1996 @@
+{
+ "geradoEm": "2026-10-08T21:10:53.528Z",
+ "fontes": {
+  "bcb": {
+   "nome": "Banco Central (SGS)",
+   "status": "ok",
+   "coletadoEm": "2026-10-08T21:11:16.055Z",
+   "duracaoMs": 22526
+  },
+  "camara": {
+   "nome": "Câmara dos Deputados (cota parlamentar)",
+   "status": "ok",
+   "coletadoEm": "2026-10-08T21:11:21.003Z",
+   "duracaoMs": 4948
+  },
+  "senado": {
+   "nome": "Senado Federal (dados abertos administrativos)",
+   "status": "ok",
+   "coletadoEm": "2026-10-08T21:11:43.940Z",
+   "duracaoMs": 22937
+  },
+  "ibge": {
+   "nome": "IBGE (população)",
+   "status": "erro",
+   "erro": "HTTP 400 em https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/variaveis/9324?localidades=N1[all]",
+   "tentadoEm": "2026-10-08T21:10:53.528Z",
+   "coletadoEm": "2026-10-08T17:30:00.000Z"
+  },
+  "bancoMundial": {
+   "nome": "Banco Mundial",
+   "status": "erro",
+   "erro": "HTTP 403 em https://api.worldbank.org/v2/country/BRA;WLD;ARG;CHL;MEX;CHN;IND;ZAF;USA;EUU;JPN/indicator/NE.TRD.GNFS.ZS?format=json&mrnev=1&per_page=100",
+   "tentadoEm": "2026-10-08T21:10:53.528Z",
+   "coletadoEm": "2026-10-08T17:30:00.000Z"
+  },
+  "emendas": {
+   "nome": "Portal da Transparência (emendas)",
+   "status": "sem-chave",
+   "verificadoEm": "2026-10-08T21:10:53.528Z"
+  }
+ },
+ "dados": {
+  "bcb": {
+   "dividaBrutaPIB": {
+    "cod": 13762,
+    "nome": "Dívida bruta do governo geral",
+    "unidade": "% do PIB",
+    "historico": [
+     {
+      "data": "2022-09-01",
+      "valor": 74.15
+     },
+     {
+      "data": "2022-10-01",
+      "valor": 73.7
+     },
+     {
+      "data": "2022-11-01",
+      "valor": 72.95
+     },
+     {
+      "data": "2022-12-01",
+      "valor": 71.68
+     },
+     {
+      "data": "2023-01-01",
+      "valor": 71.38
+     },
+     {
+      "data": "2023-02-01",
+      "valor": 71.77
+     },
+     {
+      "data": "2023-03-01",
+      "valor": 71.54
+     },
+     {
+      "data": "2023-04-01",
+      "valor": 71.57
+     },
+     {
+      "data": "2023-05-01",
+      "valor": 72.11
+     },
+     {
+      "data": "2023-06-01",
+      "valor": 71.97
+     },
+     {
+      "data": "2023-07-01",
+      "valor": 72.48
+     },
+     {
+      "data": "2023-08-01",
+      "valor": 72.89
+     },
+     {
+      "data": "2023-09-01",
+      "valor": 73.01
+     },
+     {
+      "data": "2023-10-01",
+      "valor": 73.32
+     },
+     {
+      "data": "2023-11-01",
+      "valor": 73.32
+     },
+     {
+      "data": "2023-12-01",
+      "valor": 73.83
+     },
+     {
+      "data": "2024-01-01",
+      "valor": 74.47
+     },
+     {
+      "data": "2024-02-01",
+      "valor": 74.81
+     },
+     {
+      "data": "2024-03-01",
+      "valor": 75.02
+     },
+     {
+      "data": "2024-04-01",
+      "valor": 75.15
+     },
+     {
+      "data": "2024-05-01",
+      "valor": 75.67
+     },
+     {
+      "data": "2024-06-01",
+      "valor": 76.68
+     },
+     {
+      "data": "2024-07-01",
+      "valor": 77.21
+     },
+     {
+      "data": "2024-08-01",
+      "valor": 77.36
+     },
+     {
+      "data": "2024-09-01",
+      "valor": 77.09
+     },
+     {
+      "data": "2024-10-01",
+      "valor": 77.38
+     },
+     {
+      "data": "2024-11-01",
+      "valor": 77.5
+     },
+     {
+      "data": "2024-12-01",
+      "valor": 76.27
+     },
+     {
+      "data": "2025-01-01",
+      "valor": 75.48
+     },
+     {
+      "data": "2025-02-01",
+      "valor": 75.78
+     },
+     {
+      "data": "2025-03-01",
+      "valor": 75.55
+     },
+     {
+      "data": "2025-04-01",
+      "valor": 75.62
+     },
+     {
+      "data": "2025-05-01",
+      "valor": 75.75
+     },
+     {
+      "data": "2025-06-01",
+      "valor": 76.3
+     },
+     {
+      "data": "2025-07-01",
+      "valor": 77.18
+     },
+     {
+      "data": "2025-08-01",
+      "valor": 77.31
+     },
+     {
+      "data": "2025-09-01",
+      "valor": 77.84
+     },
+     {
+      "data": "2025-10-01",
+      "valor": 78.29
+     },
+     {
+      "data": "2025-11-01",
+      "valor": 78.95
+     },
+     {
+      "data": "2025-12-01",
+      "valor": 78.64
+     },
+     {
+      "data": "2026-01-01",
+      "valor": 78.7
+     },
+     {
+      "data": "2026-02-01",
+      "valor": 79.13
+     },
+     {
+      "data": "2026-03-01",
+      "valor": 79.88
+     },
+     {
+      "data": "2026-04-01",
+      "valor": 80.1
+     },
+     {
+      "data": "2026-05-01",
+      "valor": 81.04
+     },
+     {
+      "data": "2026-06-01",
+      "valor": 81.95
+     },
+     {
+      "data": "2026-07-01",
+      "valor": 82.56
+     },
+     {
+      "data": "2026-08-01",
+      "valor": 82.86
+     }
+    ],
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 82.86
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13762"
+   },
+   "dividaBrutaR": {
+    "cod": 13761,
+    "nome": "Dívida bruta do governo geral",
+    "unidade": "R$ milhões",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 11054954.37
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13761"
+   },
+   "dividaLiquidaPIB": {
+    "cod": 4513,
+    "nome": "Dívida líquida do setor público",
+    "unidade": "% do PIB",
+    "historico": [
+     {
+      "data": "2022-09-01",
+      "valor": 56.03
+     },
+     {
+      "data": "2022-10-01",
+      "valor": 55.98
+     },
+     {
+      "data": "2022-11-01",
+      "valor": 55.81
+     },
+     {
+      "data": "2022-12-01",
+      "valor": 56.13
+     },
+     {
+      "data": "2023-01-01",
+      "valor": 55.21
+     },
+     {
+      "data": "2023-02-01",
+      "valor": 55.71
+     },
+     {
+      "data": "2023-03-01",
+      "valor": 55.98
+     },
+     {
+      "data": "2023-04-01",
+      "valor": 55.92
+     },
+     {
+      "data": "2023-05-01",
+      "valor": 56.59
+     },
+     {
+      "data": "2023-06-01",
+      "valor": 57.78
+     },
+     {
+      "data": "2023-07-01",
+      "valor": 58.34
+     },
+     {
+      "data": "2023-08-01",
+      "valor": 58.68
+     },
+     {
+      "data": "2023-09-01",
+      "valor": 58.87
+     },
+     {
+      "data": "2023-10-01",
+      "valor": 58.85
+     },
+     {
+      "data": "2023-11-01",
+      "valor": 59.08
+     },
+     {
+      "data": "2023-12-01",
+      "valor": 60.43
+     },
+     {
+      "data": "2024-01-01",
+      "valor": 59.55
+     },
+     {
+      "data": "2024-02-01",
+      "valor": 60.32
+     },
+     {
+      "data": "2024-03-01",
+      "valor": 60.59
+     },
+     {
+      "data": "2024-04-01",
+      "valor": 60.55
+     },
+     {
+      "data": "2024-05-01",
+      "valor": 61.23
+     },
+     {
+      "data": "2024-06-01",
+      "valor": 61.28
+     },
+     {
+      "data": "2024-07-01",
+      "valor": 60.91
+     },
+     {
+      "data": "2024-08-01",
+      "valor": 61.08
+     },
+     {
+      "data": "2024-09-01",
+      "valor": 61.46
+     },
+     {
+      "data": "2024-10-01",
+      "valor": 61.12
+     },
+     {
+      "data": "2024-11-01",
+      "valor": 60.99
+     },
+     {
+      "data": "2024-12-01",
+      "valor": 61.3
+     },
+     {
+      "data": "2025-01-01",
+      "valor": 60.96
+     },
+     {
+      "data": "2025-02-01",
+      "valor": 61.13
+     },
+     {
+      "data": "2025-03-01",
+      "valor": 61.3
+     },
+     {
+      "data": "2025-04-01",
+      "valor": 61.25
+     },
+     {
+      "data": "2025-05-01",
+      "valor": 61.71
+     },
+     {
+      "data": "2025-06-01",
+      "valor": 62.6
+     },
+     {
+      "data": "2025-07-01",
+      "valor": 63.41
+     },
+     {
+      "data": "2025-08-01",
+      "valor": 64.05
+     },
+     {
+      "data": "2025-09-01",
+      "valor": 64.57
+     },
+     {
+      "data": "2025-10-01",
+      "valor": 64.68
+     },
+     {
+      "data": "2025-11-01",
+      "valor": 65.18
+     },
+     {
+      "data": "2025-12-01",
+      "valor": 65.24
+     },
+     {
+      "data": "2026-01-01",
+      "valor": 64.94
+     },
+     {
+      "data": "2026-02-01",
+      "valor": 65.46
+     },
+     {
+      "data": "2026-03-01",
+      "valor": 66.67
+     },
+     {
+      "data": "2026-04-01",
+      "valor": 67.13
+     },
+     {
+      "data": "2026-05-01",
+      "valor": 67.89
+     },
+     {
+      "data": "2026-06-01",
+      "valor": 68.49
+     },
+     {
+      "data": "2026-07-01",
+      "valor": 69.13
+     },
+     {
+      "data": "2026-08-01",
+      "valor": 69.26
+     }
+    ],
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 69.26
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=4513"
+   },
+   "primario12mPIB": {
+    "cod": 5793,
+    "nome": "Déficit primário do setor público, 12 meses (NFSP)",
+    "unidade": "% do PIB",
+    "historico": [
+     {
+      "data": "2022-09-01",
+      "valor": -1.85
+     },
+     {
+      "data": "2022-10-01",
+      "valor": -1.75
+     },
+     {
+      "data": "2022-11-01",
+      "valor": -1.38
+     },
+     {
+      "data": "2022-12-01",
+      "valor": -1.25
+     },
+     {
+      "data": "2023-01-01",
+      "valor": -1.21
+     },
+     {
+      "data": "2023-02-01",
+      "valor": -0.91
+     },
+     {
+      "data": "2023-03-01",
+      "valor": -0.72
+     },
+     {
+      "data": "2023-04-01",
+      "valor": -0.54
+     },
+     {
+      "data": "2023-05-01",
+      "valor": -0.37
+     },
+     {
+      "data": "2023-06-01",
+      "valor": 0.23
+     },
+     {
+      "data": "2023-07-01",
+      "valor": 0.76
+     },
+     {
+      "data": "2023-08-01",
+      "valor": 0.69
+     },
+     {
+      "data": "2023-09-01",
+      "valor": 0.95
+     },
+     {
+      "data": "2023-10-01",
+      "valor": 1.06
+     },
+     {
+      "data": "2023-11-01",
+      "valor": 1.21
+     },
+     {
+      "data": "2023-12-01",
+      "valor": 2.28
+     },
+     {
+      "data": "2024-01-01",
+      "valor": 2.23
+     },
+     {
+      "data": "2024-02-01",
+      "valor": 2.42
+     },
+     {
+      "data": "2024-03-01",
+      "valor": 2.27
+     },
+     {
+      "data": "2024-04-01",
+      "valor": 2.38
+     },
+     {
+      "data": "2024-05-01",
+      "valor": 2.49
+     },
+     {
+      "data": "2024-06-01",
+      "valor": 2.4
+     },
+     {
+      "data": "2024-07-01",
+      "valor": 2.25
+     },
+     {
+      "data": "2024-08-01",
+      "valor": 2.23
+     },
+     {
+      "data": "2024-09-01",
+      "valor": 2.12
+     },
+     {
+      "data": "2024-10-01",
+      "valor": 1.91
+     },
+     {
+      "data": "2024-11-01",
+      "valor": 1.64
+     },
+     {
+      "data": "2024-12-01",
+      "valor": 0.4
+     },
+     {
+      "data": "2025-01-01",
+      "valor": 0.39
+     },
+     {
+      "data": "2025-02-01",
+      "valor": 0.13
+     },
+     {
+      "data": "2025-03-01",
+      "valor": 0.11
+     },
+     {
+      "data": "2025-04-01",
+      "valor": 0.05
+     },
+     {
+      "data": "2025-05-01",
+      "valor": -0.2
+     },
+     {
+      "data": "2025-06-01",
+      "valor": -0.15
+     },
+     {
+      "data": "2025-07-01",
+      "valor": 0.22
+     },
+     {
+      "data": "2025-08-01",
+      "valor": 0.19
+     },
+     {
+      "data": "2025-09-01",
+      "valor": 0.27
+     },
+     {
+      "data": "2025-10-01",
+      "valor": 0.3
+     },
+     {
+      "data": "2025-11-01",
+      "valor": 0.36
+     },
+     {
+      "data": "2025-12-01",
+      "valor": 0.43
+     },
+     {
+      "data": "2026-01-01",
+      "valor": 0.43
+     },
+     {
+      "data": "2026-02-01",
+      "valor": 0.41
+     },
+     {
+      "data": "2026-03-01",
+      "valor": 1.06
+     },
+     {
+      "data": "2026-04-01",
+      "valor": 0.97
+     },
+     {
+      "data": "2026-05-01",
+      "valor": 1.14
+     },
+     {
+      "data": "2026-06-01",
+      "valor": 1.19
+     },
+     {
+      "data": "2026-07-01",
+      "valor": 0.67
+     },
+     {
+      "data": "2026-08-01",
+      "valor": 0.62
+     }
+    ],
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 0.62
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5793"
+   },
+   "primario12mR": {
+    "cod": 5078,
+    "nome": "Déficit primário do setor público, 12 meses (NFSP)",
+    "unidade": "R$ milhões",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 82076.76
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5078"
+   },
+   "nominal12mPIB": {
+    "cod": 5727,
+    "nome": "Déficit nominal do setor público, 12 meses",
+    "unidade": "% do PIB",
+    "historico": [
+     {
+      "data": "2022-09-01",
+      "valor": 4.19
+     },
+     {
+      "data": "2022-10-01",
+      "valor": 4.04
+     },
+     {
+      "data": "2022-11-01",
+      "valor": 4.44
+     },
+     {
+      "data": "2022-12-01",
+      "valor": 4.57
+     },
+     {
+      "data": "2023-01-01",
+      "valor": 4.9
+     },
+     {
+      "data": "2023-02-01",
+      "valor": 5.52
+     },
+     {
+      "data": "2023-03-01",
+      "valor": 5.98
+     },
+     {
+      "data": "2023-04-01",
+      "valor": 5.79
+     },
+     {
+      "data": "2023-05-01",
+      "valor": 6.26
+     },
+     {
+      "data": "2023-06-01",
+      "valor": 6.28
+     },
+     {
+      "data": "2023-07-01",
+      "valor": 6.81
+     },
+     {
+      "data": "2023-08-01",
+      "valor": 7.15
+     },
+     {
+      "data": "2023-09-01",
+      "valor": 7.48
+     },
+     {
+      "data": "2023-10-01",
+      "valor": 7.73
+     },
+     {
+      "data": "2023-11-01",
+      "valor": 7.77
+     },
+     {
+      "data": "2023-12-01",
+      "valor": 8.84
+     },
+     {
+      "data": "2024-01-01",
+      "valor": 9
+     },
+     {
+      "data": "2024-02-01",
+      "valor": 9.15
+     },
+     {
+      "data": "2024-03-01",
+      "valor": 8.97
+     },
+     {
+      "data": "2024-04-01",
+      "valor": 9.3
+     },
+     {
+      "data": "2024-05-01",
+      "valor": 9.43
+     },
+     {
+      "data": "2024-06-01",
+      "valor": 9.78
+     },
+     {
+      "data": "2024-07-01",
+      "valor": 9.86
+     },
+     {
+      "data": "2024-08-01",
+      "valor": 9.66
+     },
+     {
+      "data": "2024-09-01",
+      "valor": 9.2
+     },
+     {
+      "data": "2024-10-01",
+      "valor": 9.36
+     },
+     {
+      "data": "2024-11-01",
+      "valor": 9.47
+     },
+     {
+      "data": "2024-12-01",
+      "valor": 8.47
+     },
+     {
+      "data": "2025-01-01",
+      "valor": 8.08
+     },
+     {
+      "data": "2025-02-01",
+      "valor": 7.87
+     },
+     {
+      "data": "2025-03-01",
+      "valor": 7.88
+     },
+     {
+      "data": "2025-04-01",
+      "valor": 7.7
+     },
+     {
+      "data": "2025-05-01",
+      "valor": 7.54
+     },
+     {
+      "data": "2025-06-01",
+      "valor": 7.27
+     },
+     {
+      "data": "2025-07-01",
+      "valor": 7.82
+     },
+     {
+      "data": "2025-08-01",
+      "valor": 7.79
+     },
+     {
+      "data": "2025-09-01",
+      "valor": 8.13
+     },
+     {
+      "data": "2025-10-01",
+      "valor": 8.14
+     },
+     {
+      "data": "2025-11-01",
+      "valor": 8.12
+     },
+     {
+      "data": "2025-12-01",
+      "valor": 8.34
+     },
+     {
+      "data": "2026-01-01",
+      "valor": 8.48
+     },
+     {
+      "data": "2026-02-01",
+      "valor": 8.47
+     },
+     {
+      "data": "2026-03-01",
+      "valor": 9.39
+     },
+     {
+      "data": "2026-04-01",
+      "valor": 9.37
+     },
+     {
+      "data": "2026-05-01",
+      "valor": 9.61
+     },
+     {
+      "data": "2026-06-01",
+      "valor": 9.99
+     },
+     {
+      "data": "2026-07-01",
+      "valor": 9.35
+     },
+     {
+      "data": "2026-08-01",
+      "valor": 9.48
+     }
+    ],
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 9.48
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5727"
+   },
+   "nominal12mR": {
+    "cod": 5012,
+    "nome": "Déficit nominal do setor público, 12 meses",
+    "unidade": "R$ milhões",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 1264242.83
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5012"
+   },
+   "juros12mPIB": {
+    "cod": 5760,
+    "nome": "Juros nominais do setor público, 12 meses",
+    "unidade": "% do PIB",
+    "historico": [
+     {
+      "data": "2022-09-01",
+      "valor": 6.04
+     },
+     {
+      "data": "2022-10-01",
+      "valor": 5.79
+     },
+     {
+      "data": "2022-11-01",
+      "valor": 5.82
+     },
+     {
+      "data": "2022-12-01",
+      "valor": 5.82
+     },
+     {
+      "data": "2023-01-01",
+      "valor": 6.11
+     },
+     {
+      "data": "2023-02-01",
+      "valor": 6.43
+     },
+     {
+      "data": "2023-03-01",
+      "valor": 6.71
+     },
+     {
+      "data": "2023-04-01",
+      "valor": 6.33
+     },
+     {
+      "data": "2023-05-01",
+      "valor": 6.63
+     },
+     {
+      "data": "2023-06-01",
+      "valor": 6.05
+     },
+     {
+      "data": "2023-07-01",
+      "valor": 6.05
+     },
+     {
+      "data": "2023-08-01",
+      "valor": 6.47
+     },
+     {
+      "data": "2023-09-01",
+      "valor": 6.53
+     },
+     {
+      "data": "2023-10-01",
+      "valor": 6.67
+     },
+     {
+      "data": "2023-11-01",
+      "valor": 6.56
+     },
+     {
+      "data": "2023-12-01",
+      "valor": 6.56
+     },
+     {
+      "data": "2024-01-01",
+      "valor": 6.77
+     },
+     {
+      "data": "2024-02-01",
+      "valor": 6.73
+     },
+     {
+      "data": "2024-03-01",
+      "valor": 6.7
+     },
+     {
+      "data": "2024-04-01",
+      "valor": 6.93
+     },
+     {
+      "data": "2024-05-01",
+      "valor": 6.94
+     },
+     {
+      "data": "2024-06-01",
+      "valor": 7.37
+     },
+     {
+      "data": "2024-07-01",
+      "valor": 7.61
+     },
+     {
+      "data": "2024-08-01",
+      "valor": 7.43
+     },
+     {
+      "data": "2024-09-01",
+      "valor": 7.08
+     },
+     {
+      "data": "2024-10-01",
+      "valor": 7.45
+     },
+     {
+      "data": "2024-11-01",
+      "valor": 7.83
+     },
+     {
+      "data": "2024-12-01",
+      "valor": 8.07
+     },
+     {
+      "data": "2025-01-01",
+      "valor": 7.69
+     },
+     {
+      "data": "2025-02-01",
+      "valor": 7.74
+     },
+     {
+      "data": "2025-03-01",
+      "valor": 7.77
+     },
+     {
+      "data": "2025-04-01",
+      "valor": 7.65
+     },
+     {
+      "data": "2025-05-01",
+      "valor": 7.74
+     },
+     {
+      "data": "2025-06-01",
+      "valor": 7.41
+     },
+     {
+      "data": "2025-07-01",
+      "valor": 7.6
+     },
+     {
+      "data": "2025-08-01",
+      "valor": 7.61
+     },
+     {
+      "data": "2025-09-01",
+      "valor": 7.86
+     },
+     {
+      "data": "2025-10-01",
+      "valor": 7.84
+     },
+     {
+      "data": "2025-11-01",
+      "valor": 7.76
+     },
+     {
+      "data": "2025-12-01",
+      "valor": 7.91
+     },
+     {
+      "data": "2026-01-01",
+      "valor": 8.05
+     },
+     {
+      "data": "2026-02-01",
+      "valor": 8.06
+     },
+     {
+      "data": "2026-03-01",
+      "valor": 8.33
+     },
+     {
+      "data": "2026-04-01",
+      "valor": 8.4
+     },
+     {
+      "data": "2026-05-01",
+      "valor": 8.48
+     },
+     {
+      "data": "2026-06-01",
+      "valor": 8.8
+     },
+     {
+      "data": "2026-07-01",
+      "valor": 8.68
+     },
+     {
+      "data": "2026-08-01",
+      "valor": 8.86
+     }
+    ],
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 8.86
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5760"
+   },
+   "juros12mR": {
+    "cod": 5045,
+    "nome": "Juros nominais do setor público, 12 meses",
+    "unidade": "R$ milhões",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 1182166.07
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5045"
+   },
+   "pib12mR": {
+    "cod": 4382,
+    "nome": "PIB acumulado em 12 meses",
+    "unidade": "R$ milhões",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 13342452.6
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=4382"
+   },
+   "selic": {
+    "cod": 432,
+    "nome": "Meta da taxa Selic",
+    "unidade": "% ao ano",
+    "ultimo": {
+     "data": "2026-10-08",
+     "valor": 13.75
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
+   },
+   "ipca12m": {
+    "cod": 13522,
+    "nome": "IPCA acumulado em 12 meses",
+    "unidade": "%",
+    "ultimo": {
+     "data": "2026-08-01",
+     "valor": 4.22
+    },
+    "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13522"
+   }
+  },
+  "camara": {
+   "ano": 2026,
+   "total": 138164692,
+   "lancamentos": 113137,
+   "deputadosComGasto": 563,
+   "mediaPorDeputado": 245408,
+   "ultimaDataDocumento": "2026-10-07",
+   "arquivoAtualizadoEm": "Thu, 08 Oct 2026 06:22:37 GMT",
+   "porMes": [
+    {
+     "mes": 1,
+     "valor": 17194908
+    },
+    {
+     "mes": 2,
+     "valor": 18470336
+    },
+    {
+     "mes": 3,
+     "valor": 21130838
+    },
+    {
+     "mes": 4,
+     "valor": 20889569
+    },
+    {
+     "mes": 5,
+     "valor": 23537559
+    },
+    {
+     "mes": 6,
+     "valor": 12782767
+    },
+    {
+     "mes": 7,
+     "valor": 11106535
+    },
+    {
+     "mes": 8,
+     "valor": 8560595
+    },
+    {
+     "mes": 9,
+     "valor": 4383137
+    },
+    {
+     "mes": 10,
+     "valor": 108448
+    }
+   ],
+   "porCategoria": [
+    {
+     "nome": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
+     "valor": 51274347
+    },
+    {
+     "nome": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
+     "valor": 33207778
+    },
+    {
+     "nome": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
+     "valor": 24287241
+    },
+    {
+     "nome": "COMBUSTÍVEIS E LUBRIFICANTES",
+     "valor": 17394856
+    },
+    {
+     "nome": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL",
+     "valor": 3788608
+    },
+    {
+     "nome": "LOCAÇÃO OU FRETAMENTO DE AERONAVES",
+     "valor": 2400002
+    },
+    {
+     "nome": "TELEFONIA",
+     "valor": 1880474
+    },
+    {
+     "nome": "SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA",
+     "valor": 1019463
+    },
+    {
+     "nome": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR",
+     "valor": 889535
+    },
+    {
+     "nome": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
+     "valor": 821705
+    },
+    {
+     "nome": "PASSAGEM AÉREA - REEMBOLSO",
+     "valor": 598033
+    },
+    {
+     "nome": "PASSAGEM AÉREA - RPA",
+     "valor": 193179
+    }
+   ],
+   "porPartido": [
+    {
+     "nome": "PL",
+     "valor": 24509131
+    },
+    {
+     "nome": "PT",
+     "valor": 18743260
+    },
+    {
+     "nome": "UNIÃO",
+     "valor": 14716514
+    },
+    {
+     "nome": "PP",
+     "valor": 13070186
+    },
+    {
+     "nome": "PSD",
+     "valor": 12690069
+    },
+    {
+     "nome": "REPUBLICANOS",
+     "valor": 11312342
+    },
+    {
+     "nome": "MDB",
+     "valor": 10224297
+    },
+    {
+     "nome": "PODE",
+     "valor": 7751381
+    },
+    {
+     "nome": "PSDB",
+     "valor": 4462052
+    },
+    {
+     "nome": "PSB",
+     "valor": 4377202
+    },
+    {
+     "nome": "PDT",
+     "valor": 2895841
+    },
+    {
+     "nome": "PSOL",
+     "valor": 2894177
+    },
+    {
+     "nome": "PCdoB",
+     "valor": 2819461
+    },
+    {
+     "nome": "PV",
+     "valor": 1772254
+    },
+    {
+     "nome": "REDE",
+     "valor": 1142667
+    }
+   ],
+   "porUF": [
+    {
+     "nome": "SP",
+     "valor": 17373228
+    },
+    {
+     "nome": "MG",
+     "valor": 14726769
+    },
+    {
+     "nome": "BA",
+     "valor": 10952170
+    },
+    {
+     "nome": "RJ",
+     "valor": 10872259
+    },
+    {
+     "nome": "RS",
+     "valor": 9371460
+    },
+    {
+     "nome": "PR",
+     "valor": 8112708
+    },
+    {
+     "nome": "PE",
+     "valor": 7150034
+    },
+    {
+     "nome": "CE",
+     "valor": 5530918
+    },
+    {
+     "nome": "GO",
+     "valor": 4786795
+    },
+    {
+     "nome": "MA",
+     "valor": 4193111
+    },
+    {
+     "nome": "SC",
+     "valor": 4179366
+    },
+    {
+     "nome": "PA",
+     "valor": 3890327
+    },
+    {
+     "nome": "PB",
+     "valor": 3540047
+    },
+    {
+     "nome": "PI",
+     "valor": 2894347
+    },
+    {
+     "nome": "ES",
+     "valor": 2812744
+    },
+    {
+     "nome": "RN",
+     "valor": 2781365
+    },
+    {
+     "nome": "MS",
+     "valor": 2570568
+    },
+    {
+     "nome": "RR",
+     "valor": 2549820
+    },
+    {
+     "nome": "AC",
+     "valor": 2526486
+    },
+    {
+     "nome": "RO",
+     "valor": 2440800
+    },
+    {
+     "nome": "AP",
+     "valor": 2250541
+    },
+    {
+     "nome": "MT",
+     "valor": 2214425
+    },
+    {
+     "nome": "TO",
+     "valor": 2207114
+    },
+    {
+     "nome": "SE",
+     "valor": 1987818
+    },
+    {
+     "nome": "AM",
+     "valor": 1897753
+    },
+    {
+     "nome": "AL",
+     "valor": 1812229
+    },
+    {
+     "nome": "DF",
+     "valor": 1774498
+    }
+   ],
+   "porFornecedor": [
+    {
+     "nome": "Facebook Serviços Online do Brasil Ltda.",
+     "valor": 2103255
+    },
+    {
+     "nome": "PANTANAL VEÍCULOS LTDA",
+     "valor": 1430179
+    },
+    {
+     "nome": "PANTANAL-VEICULOS LTDA",
+     "valor": 1209997
+    },
+    {
+     "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
+     "valor": 1086745
+    },
+    {
+     "nome": "SUPREMA MOBILIDADE LTDA",
+     "valor": 1000301
+    },
+    {
+     "nome": "LOCALIZA RENT A CAR SA",
+     "valor": 597424
+    },
+    {
+     "nome": "HPE AUTOMOTORES DO BRASIL LTDA",
+     "valor": 508098
+    },
+    {
+     "nome": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
+     "valor": 504600
+    },
+    {
+     "nome": "AUTO LESTE LTDA",
+     "valor": 493000
+    },
+    {
+     "nome": "CELULAR FUNCIONAL",
+     "valor": 471288
+    }
+   ],
+   "maioresGastos": [
+    {
+     "id": 74454,
+     "partido": "MDB",
+     "uf": "CE",
+     "valor": 484466
+    },
+    {
+     "id": 220538,
+     "partido": "REPUBLICANOS",
+     "uf": "RR",
+     "valor": 467679
+    },
+    {
+     "id": 191923,
+     "partido": "PT",
+     "uf": "PI",
+     "valor": 464898
+    },
+    {
+     "id": 230768,
+     "partido": "PP",
+     "uf": "AC",
+     "valor": 464246
+    },
+    {
+     "id": 204426,
+     "partido": "PT",
+     "uf": "PE",
+     "valor": 463693
+    },
+    {
+     "id": 220624,
+     "partido": "PP",
+     "uf": "RN",
+     "valor": 461399
+    },
+    {
+     "id": 224117,
+     "partido": "UNIÃO",
+     "uf": "RR",
+     "valor": 454515
+    },
+    {
+     "id": 220675,
+     "partido": "MDB",
+     "uf": "PA",
+     "valor": 444519
+    },
+    {
+     "id": 74090,
+     "partido": "PSD",
+     "uf": "AM",
+     "valor": 434596
+    },
+    {
+     "id": 220544,
+     "partido": "PSDB",
+     "uf": "TO",
+     "valor": 428949
+    },
+    {
+     "id": 178895,
+     "partido": "PSD",
+     "uf": "MG",
+     "valor": 428866
+    },
+    {
+     "id": 220551,
+     "partido": "REPUBLICANOS",
+     "uf": "RS",
+     "valor": 423811
+    },
+    {
+     "id": 160556,
+     "partido": "PT",
+     "uf": "MG",
+     "valor": 422159
+    },
+    {
+     "id": 188097,
+     "partido": "PT",
+     "uf": "PI",
+     "valor": 421835
+    },
+    {
+     "id": 178929,
+     "partido": "UNIÃO",
+     "uf": "PR",
+     "valor": 420502
+    },
+    {
+     "id": 74374,
+     "partido": "UNIÃO",
+     "uf": "MS",
+     "valor": 416628
+    },
+    {
+     "id": 204512,
+     "partido": "UNIÃO",
+     "uf": "MG",
+     "valor": 415066
+    },
+    {
+     "id": 204388,
+     "partido": "PL",
+     "uf": "RS",
+     "valor": 414469
+    },
+    {
+     "id": 220572,
+     "partido": "REPUBLICANOS",
+     "uf": "GO",
+     "valor": 413872
+    },
+    {
+     "id": 160559,
+     "partido": "MDB",
+     "uf": "RS",
+     "valor": 412110
+    }
+   ],
+   "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
+  },
+  "senado": {
+   "url": "https://www12.senado.leg.br/transparencia",
+   "ceaps": {
+    "ano": 2026,
+    "total": 23476169,
+    "lancamentos": 14713,
+    "senadoresComGasto": 89,
+    "mediaPorSenador": 263777,
+    "ultimaDataDocumento": "2026-09-30",
+    "porMes": [
+     {
+      "mes": 1,
+      "valor": 2641865
+     },
+     {
+      "mes": 2,
+      "valor": 2936097
+     },
+     {
+      "mes": 3,
+      "valor": 3708387
+     },
+     {
+      "mes": 4,
+      "valor": 3103275
+     },
+     {
+      "mes": 5,
+      "valor": 2954558
+     },
+     {
+      "mes": 6,
+      "valor": 2770625
+     },
+     {
+      "mes": 7,
+      "valor": 2620671
+     },
+     {
+      "mes": 8,
+      "valor": 2049261
+     },
+     {
+      "mes": 9,
+      "valor": 688454
+     },
+     {
+      "mes": 10,
+      "valor": 2976
+     }
+    ],
+    "porTipo": [
+     {
+      "nome": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
+      "valor": 6264419
+     },
+     {
+      "nome": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
+      "valor": 5563504
+     },
+     {
+      "nome": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
+      "valor": 3835126
+     },
+     {
+      "nome": "Passagens aéreas, aquáticas e terrestres nacionais",
+      "valor": 3542177
+     },
+     {
+      "nome": "Divulgação da atividade parlamentar",
+      "valor": 3220056
+     },
+     {
+      "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
+      "valor": 911071
+     },
+     {
+      "nome": "Não informado",
+      "valor": 139232
+     },
+     {
+      "nome": "Serviços de Segurança Privada",
+      "valor": 585
+     }
+    ],
+    "porPartido": [
+     {
+      "nome": "PL",
+      "valor": 3801490
+     },
+     {
+      "nome": "PSD",
+      "valor": 3799264
+     },
+     {
+      "nome": "PT",
+      "valor": 3092197
+     },
+     {
+      "nome": "PP",
+      "valor": 2189563
+     },
+     {
+      "nome": "MDB",
+      "valor": 1911110
+     },
+     {
+      "nome": "REPUBLICANOS",
+      "valor": 1566247
+     },
+     {
+      "nome": "PSB",
+      "valor": 1474133
+     },
+     {
+      "nome": "PODE",
+      "valor": 1011040
+     },
+     {
+      "nome": "UNIÃO",
+      "valor": 809197
+     },
+     {
+      "nome": "AVANTE",
+      "valor": 378669
+     },
+     {
+      "nome": "PSDB",
+      "valor": 281309
+     },
+     {
+      "nome": "S/Partido",
+      "valor": 111514
+     }
+    ],
+    "maioresGastos": [
+     {
+      "id": 4811,
+      "nome": "LAÉRCIO OLIVEIRA",
+      "partido": "PP",
+      "uf": "SE",
+      "valor": 463468
+     },
+     {
+      "id": 4639,
+      "nome": "BETO FARO",
+      "partido": "PT",
+      "uf": "PA",
+      "valor": 432368
+     },
+     {
+      "id": 5917,
+      "nome": "FERNANDO DUEIRE",
+      "partido": "PSD",
+      "uf": "PE",
+      "valor": 427301
+     },
+     {
+      "id": 5008,
+      "nome": "HUMBERTO COSTA",
+      "partido": "PT",
+      "uf": "PE",
+      "valor": 426879
+     },
+     {
+      "id": 825,
+      "nome": "PAULO PAIM",
+      "partido": "PT",
+      "uf": "RS",
+      "valor": 407758
+     },
+     {
+      "id": 5985,
+      "nome": "NELSINHO TRAD",
+      "partido": "",
+      "uf": "",
+      "valor": 407086
+     },
+     {
+      "id": 5525,
+      "nome": "OMAR AZIZ",
+      "partido": "PSD",
+      "uf": "AM",
+      "valor": 406018
+     },
+     {
+      "id": 5988,
+      "nome": "SORAYA THRONICKE",
+      "partido": "PSB",
+      "uf": "MS",
+      "valor": 405429
+     },
+     {
+      "id": 5352,
+      "nome": "ROGÉRIO CARVALHO",
+      "partido": "PT",
+      "uf": "SE",
+      "valor": 404950
+     },
+     {
+      "id": 6358,
+      "nome": "ANA PAULA LOBATO",
+      "partido": "PSB",
+      "uf": "MA",
+      "valor": 397884
+     },
+     {
+      "id": 6341,
+      "nome": "HAMILTON MOURÃO",
+      "partido": "REPUBLICANOS",
+      "uf": "RS",
+      "valor": 395722
+     },
+     {
+      "id": 4531,
+      "nome": "JAYME CAMPOS",
+      "partido": "UNIÃO",
+      "uf": "MT",
+      "valor": 395467
+     },
+     {
+      "id": 6331,
+      "nome": "SERGIO MORO",
+      "partido": "PL",
+      "uf": "PR",
+      "valor": 394590
+     },
+     {
+      "id": 5982,
+      "nome": "ALESSANDRO VIEIRA",
+      "partido": "MDB",
+      "uf": "SE",
+      "valor": 386072
+     },
+     {
+      "id": 4994,
+      "nome": "EDUARDO BRAGA",
+      "partido": "MDB",
+      "uf": "AM",
+      "valor": 381982
+     },
+     {
+      "id": 5942,
+      "nome": "MARCOS DO VAL",
+      "partido": "AVANTE",
+      "uf": "ES",
+      "valor": 378669
+     },
+     {
+      "id": 1173,
+      "nome": "WELLINGTON FAGUNDES",
+      "partido": "PL",
+      "uf": "MT",
+      "valor": 376121
+     },
+     {
+      "id": 6008,
+      "nome": "GIORDANO",
+      "partido": "PODE",
+      "uf": "SP",
+      "valor": 375867
+     },
+     {
+      "id": 5012,
+      "nome": "RANDOLFE RODRIGUES",
+      "partido": "PT",
+      "uf": "AP",
+      "valor": 373070
+     },
+     {
+      "id": 5422,
+      "nome": "MARCOS ROGÉRIO",
+      "partido": "PL",
+      "uf": "RO",
+      "valor": 367126
+     }
+    ]
+   },
+   "folha": {
+    "ano": 2026,
+    "mes": 9,
+    "registros": 10754,
+    "bruto": 335647426,
+    "liquido": 235856708,
+    "abateTeto": 15549919,
+    "contrachequesComAbateTeto": 1915
+   },
+   "pessoal": {
+    "ativos": 6715,
+    "porVinculo": {
+     "EFETIVO": 2362,
+     "COMISSIONADO": 4214,
+     "PARLAMENTAR": 84,
+     "REQUISITADO": 55
+    }
+   },
+   "terceirizados": 3179,
+   "moradia": {
+    "imovelFuncional": 63,
+    "auxilioMoradia": 0,
+    "senadores": 85
+   }
+  },
+  "ibge": {
+   "populacao": 214211951,
+   "ano": 2026,
+   "url": "https://sidra.ibge.gov.br/tabela/6579"
+  },
+  "bancoMundial": {
+   "abertura": {
+    "indicador": "NE.TRD.GNFS.ZS",
+    "url": "https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS",
+    "valores": [
+     {
+      "pais": "BRA",
+      "nome": "Brazil",
+      "ano": 2025,
+      "valor": 35.29
+     },
+     {
+      "pais": "WLD",
+      "nome": "World",
+      "ano": 2025,
+      "valor": 68.49
+     },
+     {
+      "pais": "ARG",
+      "nome": "Argentina",
+      "ano": 2025,
+      "valor": 30.36
+     },
+     {
+      "pais": "CHL",
+      "nome": "Chile",
+      "ano": 2025,
+      "valor": 64.98
+     },
+     {
+      "pais": "MEX",
+      "nome": "Mexico",
+      "ano": 2025,
+      "valor": 79.92
+     },
+     {
+      "pais": "CHN",
+      "nome": "China",
+      "ano": 2025,
+      "valor": 37.96
+     },
+     {
+      "pais": "IND",
+      "nome": "India",
+      "ano": 2025,
+      "valor": 46.27
+     },
+     {
+      "pais": "ZAF",
+      "nome": "South Africa",
+      "ano": 2025,
+      "valor": 60.91
+     }
+    ]
+   },
+   "tarifaMedia": {
+    "indicador": "TM.TAX.MRCH.SM.AR.ZS",
+    "url": "https://data.worldbank.org/indicator/TM.TAX.MRCH.SM.AR.ZS",
+    "valores": [
+     {
+      "pais": "BRA",
+      "nome": "Brazil",
+      "ano": 2022,
+      "valor": 13.29
+     },
+     {
+      "pais": "ARG",
+      "nome": "Argentina",
+      "ano": 2022,
+      "valor": 11.95
+     },
+     {
+      "pais": "IND",
+      "nome": "India",
+      "ano": 2022,
+      "valor": 10.06
+     },
+     {
+      "pais": "ZAF",
+      "nome": "South Africa",
+      "ano": 2022,
+      "valor": 7.31
+     },
+     {
+      "pais": "CHN",
+      "nome": "China",
+      "ano": 2022,
+      "valor": 5.36
+     },
+     {
+      "pais": "USA",
+      "nome": "United States",
+      "ano": 2022,
+      "valor": 2.72
+     },
+     {
+      "pais": "MEX",
+      "nome": "Mexico",
+      "ano": 2022,
+      "valor": 2.69
+     },
+     {
+      "pais": "CHL",
+      "nome": "Chile",
+      "ano": 2022,
+      "valor": 1.03
+     }
+    ]
+   }
+  },
+  "derivados": {
+   "dividaPorHabitante": 51608,
+   "jurosPorSegundo": 37486
+  }
+ }
+}
