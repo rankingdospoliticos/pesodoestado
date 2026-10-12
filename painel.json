@@ -1,40 +1,41 @@
 {
- "geradoEm": "2026-10-12T00:31:55.847Z",
+ "geradoEm": "2026-10-12T10:47:51.908Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-12T00:32:18.073Z",
-   "duracaoMs": 22225
+   "coletadoEm": "2026-10-12T10:48:11.794Z",
+   "duracaoMs": 19884
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-12T00:32:22.744Z",
-   "duracaoMs": 4671
+   "coletadoEm": "2026-10-12T10:48:16.625Z",
+   "duracaoMs": 4831
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-12T00:32:33.529Z",
-   "duracaoMs": 10785
+   "coletadoEm": "2026-10-12T10:48:31.715Z",
+   "duracaoMs": 15090
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-12T00:32:34.194Z",
-   "duracaoMs": 665
+   "coletadoEm": "2026-10-12T10:48:32.756Z",
+   "duracaoMs": 1041
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
-   "status": "ok",
-   "coletadoEm": "2026-10-12T00:32:34.325Z",
-   "duracaoMs": 131
+   "status": "erro",
+   "erro": "This operation was aborted",
+   "tentadoEm": "2026-10-12T10:47:51.908Z",
+   "coletadoEm": "2026-10-12T00:32:34.325Z"
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-12T00:31:55.847Z"
+   "verificadoEm": "2026-10-12T10:47:51.908Z"
   }
  },
  "dados": {
@@ -1132,12 +1133,12 @@
   },
   "camara": {
    "ano": 2026,
-   "total": 137376641,
-   "lancamentos": 114046,
+   "total": 138009088,
+   "lancamentos": 114452,
    "deputadosComGasto": 563,
-   "mediaPorDeputado": 244008,
-   "ultimaDataDocumento": "2026-10-08",
-   "arquivoAtualizadoEm": "Sun, 11 Oct 2026 06:35:57 GMT",
+   "mediaPorDeputado": 245132,
+   "ultimaDataDocumento": "2026-10-09",
+   "arquivoAtualizadoEm": "Mon, 12 Oct 2026 06:34:28 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1145,15 +1146,15 @@
     },
     {
      "mes": 2,
-     "valor": 18312799
+     "valor": 18323404
     },
     {
      "mes": 3,
-     "valor": 20985252
+     "valor": 20985624
     },
     {
      "mes": 4,
-     "valor": 20742385
+     "valor": 20742927
     },
     {
      "mes": 5,
@@ -1161,45 +1162,45 @@
     },
     {
      "mes": 6,
-     "valor": 12641109
+     "valor": 12642010
     },
     {
      "mes": 7,
-     "valor": 10967494
+     "valor": 10990797
     },
     {
      "mes": 8,
-     "valor": 8500668
+     "valor": 8583505
     },
     {
      "mes": 9,
-     "valor": 4612193
+     "valor": 4981238
     },
     {
      "mes": 10,
-     "valor": 172566
+     "valor": 317406
     }
    ],
    "porCategoria": [
     {
      "nome": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
-     "valor": 51274347
+     "valor": 51377347
     },
     {
      "nome": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-     "valor": 33412587
+     "valor": 33644828
     },
     {
      "nome": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-     "valor": 24375643
+     "valor": 24573775
     },
     {
      "nome": "COMBUSTÍVEIS E LUBRIFICANTES",
-     "valor": 17477814
+     "valor": 17546353
     },
     {
      "nome": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL",
-     "valor": 3789742
+     "valor": 3810693
     },
     {
      "nome": "LOCAÇÃO OU FRETAMENTO DE AERONAVES",
@@ -1207,19 +1208,19 @@
     },
     {
      "nome": "TELEFONIA",
-     "valor": 1885350
+     "valor": 1889430
     },
     {
      "nome": "SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA",
-     "valor": 1020979
+     "valor": 1022474
     },
     {
      "nome": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR",
-     "valor": 893022
+     "valor": 895304
     },
     {
      "nome": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-     "valor": 821949
+     "valor": 823289
     },
     {
      "nome": "PASSAGEM AÉREA - REEMBOLSO",
@@ -1233,117 +1234,117 @@
    "porPartido": [
     {
      "nome": "PL",
-     "valor": 24340920
+     "valor": 24421880
     },
     {
      "nome": "PT",
-     "valor": 18590910
+     "valor": 18652567
     },
     {
      "nome": "UNIÃO",
-     "valor": 14656231
+     "valor": 14696815
     },
     {
      "nome": "PP",
-     "valor": 12969291
+     "valor": 13023776
     },
     {
      "nome": "PSD",
-     "valor": 12644909
+     "valor": 12701214
     },
     {
      "nome": "REPUBLICANOS",
-     "valor": 11314189
+     "valor": 11350308
     },
     {
      "nome": "MDB",
-     "valor": 10178450
+     "valor": 10316877
     },
     {
      "nome": "PODE",
-     "valor": 7699347
+     "valor": 7725520
     },
     {
      "nome": "PSDB",
-     "valor": 4425154
+     "valor": 4431711
     },
     {
      "nome": "PSB",
-     "valor": 4347276
+     "valor": 4357069
     },
     {
      "nome": "PDT",
-     "valor": 2892100
+     "valor": 2914790
     },
     {
      "nome": "PSOL",
-     "valor": 2842386
+     "valor": 2863856
     },
     {
      "nome": "PCdoB",
-     "valor": 2820143
+     "valor": 2824385
     },
     {
      "nome": "PV",
-     "valor": 1767572
+     "valor": 1811008
     },
     {
      "nome": "REDE",
-     "valor": 1130252
+     "valor": 1146189
     }
    ],
    "porUF": [
     {
      "nome": "SP",
-     "valor": 17112713
+     "valor": 17187275
     },
     {
      "nome": "MG",
-     "valor": 14669886
+     "valor": 14738636
     },
     {
      "nome": "BA",
-     "valor": 10932998
+     "valor": 11009483
     },
     {
      "nome": "RJ",
-     "valor": 10798057
+     "valor": 10890857
     },
     {
      "nome": "RS",
-     "valor": 9327947
+     "valor": 9347931
     },
     {
      "nome": "PR",
-     "valor": 8089703
+     "valor": 8128126
     },
     {
      "nome": "PE",
-     "valor": 7176003
+     "valor": 7214357
     },
     {
      "nome": "CE",
-     "valor": 5452731
+     "valor": 5474601
     },
     {
      "nome": "GO",
-     "valor": 4767592
+     "valor": 4767918
     },
     {
      "nome": "MA",
-     "valor": 4199125
+     "valor": 4207241
     },
     {
      "nome": "SC",
-     "valor": 4162130
+     "valor": 4165993
     },
     {
      "nome": "PA",
-     "valor": 3891944
+     "valor": 3895904
     },
     {
      "nome": "PB",
-     "valor": 3546446
+     "valor": 3546860
     },
     {
      "nome": "PI",
@@ -1351,27 +1352,27 @@
     },
     {
      "nome": "RN",
-     "valor": 2763689
+     "valor": 2769832
     },
     {
      "nome": "ES",
-     "valor": 2712389
+     "valor": 2718149
+    },
+    {
+     "nome": "AC",
+     "valor": 2592668
     },
     {
      "nome": "MS",
      "valor": 2556129
     },
     {
-     "nome": "AC",
-     "valor": 2485204
-    },
-    {
      "nome": "RR",
-     "valor": 2483584
+     "valor": 2497084
     },
     {
      "nome": "RO",
-     "valor": 2431486
+     "valor": 2433630
     },
     {
      "nome": "AP",
@@ -1379,27 +1380,27 @@
     },
     {
      "nome": "MT",
-     "valor": 2214888
+     "valor": 2221571
     },
     {
      "nome": "TO",
-     "valor": 2207764
+     "valor": 2217275
     },
     {
      "nome": "SE",
-     "valor": 1977113
+     "valor": 2004167
     },
     {
      "nome": "AM",
-     "valor": 1897753
+     "valor": 1897853
     },
     {
      "nome": "AL",
-     "valor": 1831667
+     "valor": 1837667
     },
     {
      "nome": "DF",
-     "valor": 1779458
+     "valor": 1779640
     }
    ],
    "porFornecedor": [
@@ -1413,7 +1414,7 @@
     },
     {
      "nome": "PANTANAL-VEICULOS LTDA",
-     "valor": 1217697
+     "valor": 1229797
     },
     {
      "nome": "NOVACAR LOCADORA DE VEICULOS LTDA",
@@ -1421,11 +1422,11 @@
     },
     {
      "nome": "SUPREMA MOBILIDADE LTDA",
-     "valor": 1029301
+     "valor": 1043601
     },
     {
      "nome": "LOCALIZA RENT A CAR SA",
-     "valor": 597424
+     "valor": 612171
     },
     {
      "nome": "HPE AUTOMOTORES DO BRASIL LTDA",
@@ -1467,6 +1468,13 @@
      "valor": 466681
     },
     {
+     "id": 220624,
+     "nome": "Robinson Faria",
+     "partido": "PP",
+     "uf": "RN",
+     "valor": 465620
+    },
+    {
      "id": 230768,
      "nome": "Zé Adriano",
      "partido": "PP",
@@ -1479,13 +1487,6 @@
      "partido": "PT",
      "uf": "PE",
      "valor": 463693
-    },
-    {
-     "id": 220624,
-     "nome": "Robinson Faria",
-     "partido": "PP",
-     "uf": "RN",
-     "valor": 461399
     },
     {
      "id": 224117,
@@ -1509,6 +1510,13 @@
      "valor": 434596
     },
     {
+     "id": 160556,
+     "nome": "Padre João",
+     "partido": "PT",
+     "uf": "MG",
+     "valor": 434498
+    },
+    {
      "id": 220544,
      "nome": "Antonio Andrade",
      "partido": "PSDB",
@@ -1523,18 +1531,18 @@
      "valor": 428866
     },
     {
+     "id": 178929,
+     "nome": "Diego Garcia",
+     "partido": "UNIÃO",
+     "uf": "PR",
+     "valor": 426202
+    },
+    {
      "id": 220551,
      "nome": "Franciane Bayer",
      "partido": "REPUBLICANOS",
      "uf": "RS",
      "valor": 423811
-    },
-    {
-     "id": 160556,
-     "nome": "Padre João",
-     "partido": "PT",
-     "uf": "MG",
-     "valor": 423749
     },
     {
      "id": 188097,
@@ -1551,18 +1559,18 @@
      "valor": 421758
     },
     {
-     "id": 178929,
-     "nome": "Diego Garcia",
-     "partido": "UNIÃO",
-     "uf": "PR",
-     "valor": 420502
+     "id": 160559,
+     "nome": "Alceu Moreira",
+     "partido": "MDB",
+     "uf": "RS",
+     "valor": 421155
     },
     {
      "id": 204512,
      "nome": "Delegado Marcelo Freitas",
      "partido": "UNIÃO",
      "uf": "MG",
-     "valor": 417964
+     "valor": 418342
     },
     {
      "id": 220572,
@@ -1577,13 +1585,6 @@
      "partido": "PL",
      "uf": "RS",
      "valor": 415071
-    },
-    {
-     "id": 160559,
-     "nome": "Alceu Moreira",
-     "partido": "MDB",
-     "uf": "RS",
-     "valor": 412479
     }
    ],
    "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
@@ -1658,7 +1659,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3321255
+      "valor": 3321256
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
