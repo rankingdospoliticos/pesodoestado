@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-10-13T10:34:23.843Z",
+ "geradoEm": "2026-10-13T19:16:57.395Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T10:35:42.768Z",
-   "duracaoMs": 78923
+   "coletadoEm": "2026-10-13T19:17:08.546Z",
+   "duracaoMs": 11150
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T10:35:47.585Z",
-   "duracaoMs": 4817
+   "coletadoEm": "2026-10-13T19:17:13.612Z",
+   "duracaoMs": 5066
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T10:36:08.529Z",
-   "duracaoMs": 20944
+   "coletadoEm": "2026-10-13T19:17:28.187Z",
+   "duracaoMs": 14575
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T10:36:09.511Z",
-   "duracaoMs": 982
+   "coletadoEm": "2026-10-13T19:17:29.212Z",
+   "duracaoMs": 1025
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-13T10:36:18.854Z",
-   "duracaoMs": 9343
+   "coletadoEm": "2026-10-13T19:18:46.928Z",
+   "duracaoMs": 77715
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-13T10:34:23.843Z"
+   "verificadoEm": "2026-10-13T19:16:57.395Z"
   }
  },
  "dados": {
@@ -218,7 +218,7 @@
      },
      {
       "data": "2026-04-01",
-      "valor": 80.1
+      "valor": 80.09
      },
      {
       "data": "2026-05-01",
@@ -230,16 +230,16 @@
      },
      {
       "data": "2026-07-01",
-      "valor": 82.56
+      "valor": 82.55
      },
      {
       "data": "2026-08-01",
-      "valor": 82.86
+      "valor": 82.87
      }
     ],
     "ultimo": {
      "data": "2026-08-01",
-     "valor": 82.86
+     "valor": 82.87
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13762"
    },
@@ -436,7 +436,7 @@
      },
      {
       "data": "2026-05-01",
-      "valor": 67.89
+      "valor": 67.88
      },
      {
       "data": "2026-06-01",
@@ -444,16 +444,16 @@
      },
      {
       "data": "2026-07-01",
-      "valor": 69.13
+      "valor": 69.11
      },
      {
       "data": "2026-08-01",
-      "valor": 69.26
+      "valor": 69.27
      }
     ],
     "ultimo": {
      "data": "2026-08-01",
-     "valor": 69.26
+     "valor": 69.27
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=4513"
    },
@@ -1104,8 +1104,8 @@
     "nome": "PIB acumulado em 12 meses",
     "unidade": "R$ milhões",
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 13342452.6
+     "data": "2026-09-01",
+     "valor": 13402023.7
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=4382"
    },
