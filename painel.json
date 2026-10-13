@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-10-13T02:36:13.648Z",
+ "geradoEm": "2026-10-13T10:34:23.843Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T02:36:36.516Z",
-   "duracaoMs": 22867
+   "coletadoEm": "2026-10-13T10:35:42.768Z",
+   "duracaoMs": 78923
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T02:36:41.343Z",
-   "duracaoMs": 4827
+   "coletadoEm": "2026-10-13T10:35:47.585Z",
+   "duracaoMs": 4817
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T02:36:58.649Z",
-   "duracaoMs": 17306
+   "coletadoEm": "2026-10-13T10:36:08.529Z",
+   "duracaoMs": 20944
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-13T02:36:59.501Z",
-   "duracaoMs": 852
+   "coletadoEm": "2026-10-13T10:36:09.511Z",
+   "duracaoMs": 982
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-13T02:37:00.468Z",
-   "duracaoMs": 967
+   "coletadoEm": "2026-10-13T10:36:18.854Z",
+   "duracaoMs": 9343
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-13T02:36:13.648Z"
+   "verificadoEm": "2026-10-13T10:34:23.843Z"
   }
  },
  "dados": {
@@ -1137,7 +1137,7 @@
    "deputadosComGasto": 563,
    "mediaPorDeputado": 245132,
    "ultimaDataDocumento": "2026-10-09",
-   "arquivoAtualizadoEm": "Mon, 12 Oct 2026 06:34:28 GMT",
+   "arquivoAtualizadoEm": "Tue, 13 Oct 2026 06:35:09 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1658,7 +1658,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3321256
+      "valor": 3321255
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
