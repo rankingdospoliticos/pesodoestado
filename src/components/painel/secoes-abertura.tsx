@@ -167,7 +167,7 @@ export function Traduzindo({ p }: P) {
       intro="Escolha um valor e veja quanto ele representa em casas populares, creches, hospitais e salários. Os itens da lista são temas dos próximos capítulos. Os custos usam valores oficiais conservadores, então as quantidades tendem a ser as menores possíveis."
       ponte="Esse dinheiro, porém, não vai para casas e creches na proporção que o tamanho da conta sugere. A próxima parte mostra para onde ele vai de fato.">
       <div className="panel trad">
-        <div className="trad-lista" role="listbox" aria-label="Escolha um valor">
+        <div className="trad-lista" role="group" aria-label="Escolha um valor">
           {gastos.map((x) => (
             <button key={x.id} type="button" role="option" aria-selected={x.id === id} className={x.id === id ? "on" : undefined} onClick={() => setId(x.id)}>
               <span className="tl-r">{x.rotulo}</span>

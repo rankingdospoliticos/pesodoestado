@@ -28,6 +28,7 @@ function Tickers({ p }: { p: Painel }) {
   const jurosSeg = p.dados.derivados?.jurosPorSegundo ?? (jurR ? (jurR.ultimo.valor * 1e6) / SEG_ANO : 37486);
   const taxas = [arrec.total / SEG_ANO, jurosSeg, (judiciario.total * 1e9) / SEG_ANO, ((emendas.serie.at(-1)?.v ?? 61.4) * 1e9) / SEG_ANO];
 
+  const caixa = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
     const t0 = performance.now();
     const pinta = () => {
@@ -37,15 +38,19 @@ function Tickers({ p }: { p: Painel }) {
         if (el) el.textContent = `R$ ${fmt(Math.floor(t * s))}`;
       });
     };
+    pinta();
     const reduzido = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    if (reduzido) {
-      const id = window.setInterval(pinta, 1000);
-      return () => window.clearInterval(id);
-    }
-    let raf = 0;
-    const loop = () => { pinta(); raf = requestAnimationFrame(loop); };
-    raf = requestAnimationFrame(loop);
-    return () => cancelAnimationFrame(raf);
+    // ~12 atualizações por segundo bastam para o olho e custam bem menos que 60.
+    // Também pausa quando os contadores saem da tela (a maior parte da leitura).
+    let id = 0;
+    const liga = () => { if (!id) id = window.setInterval(pinta, reduzido ? 1000 : 80); };
+    const desliga = () => { window.clearInterval(id); id = 0; };
+    let io: IntersectionObserver | undefined;
+    if (typeof IntersectionObserver !== "undefined" && caixa.current) {
+      io = new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) { pinta(); liga(); } else desliga(); });
+      io.observe(caixa.current);
+    } else liga();
+    return () => { desliga(); io?.disconnect(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [jurosSeg, arrec.total]);
 
@@ -56,7 +61,7 @@ function Tickers({ p }: { p: Painel }) {
     { l: "Emendas parlamentares", r: `base: R$ ${fmt(emendas.serie.at(-1)?.v ?? 61.4, 1)} bi na LOA 2026` },
   ];
   return (
-    <div className="tickers" aria-label="Contadores desde que a página foi aberta">
+    <div className="tickers" ref={caixa} aria-label="Contadores desde que a página foi aberta">
       {itens.map((it, i) => (
         <div className={`ticker${it.destaque ? " principal" : ""}`} key={it.l}>
           <div className="l">{it.l}</div>
@@ -71,8 +76,8 @@ function Tickers({ p }: { p: Painel }) {
 /** Menu de capítulos que acompanha a leitura. */
 function Navegacao() {
   const [ativo, setAtivo] = useState<string>("");
-  const [prog, setProg] = useState(0);
   const navRef = useRef<HTMLDivElement | null>(null);
+  const barra = useRef<HTMLElement | null>(null);
   useEffect(() => {
     const secoes = NAV.map(([id]) => document.getElementById(id)).filter((x): x is HTMLElement => Boolean(x));
     const io = new IntersectionObserver(
@@ -83,13 +88,18 @@ function Navegacao() {
       { rootMargin: "-20% 0px -70% 0px" },
     );
     secoes.forEach((s) => io.observe(s));
-    const rolar = () => {
+    // A barra de progresso é atualizada direto no DOM, uma vez por quadro, sem re-renderizar o menu.
+    let raf = 0;
+    const pinta = () => {
+      raf = 0;
       const h = document.documentElement;
-      setProg(Math.min(1, h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight)));
+      const prog = Math.min(1, h.scrollTop / Math.max(1, h.scrollHeight - h.clientHeight));
+      if (barra.current) barra.current.style.transform = `scaleX(${prog})`;
     };
+    const rolar = () => { if (!raf) raf = requestAnimationFrame(pinta); };
     window.addEventListener("scroll", rolar, { passive: true });
-    rolar();
-    return () => { io.disconnect(); window.removeEventListener("scroll", rolar); };
+    pinta();
+    return () => { io.disconnect(); window.removeEventListener("scroll", rolar); if (raf) cancelAnimationFrame(raf); };
   }, []);
   useEffect(() => {
     const el = navRef.current?.querySelector<HTMLAnchorElement>(`a[href="#${ativo}"]`);
@@ -101,7 +111,7 @@ function Navegacao() {
       <div className="wrap" ref={navRef}>
         {NAV.map(([id, rotulo]) => <a key={id} href={`#${id}`} aria-current={ativo === id ? "true" : undefined}>{rotulo}</a>)}
       </div>
-      <i className="progresso" style={{ transform: `scaleX(${prog})` }} aria-hidden="true" />
+      <i className="progresso" ref={barra} aria-hidden="true" />
     </nav>
   );
 }
