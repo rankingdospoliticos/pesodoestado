@@ -21,7 +21,8 @@ export function Quadro({ tipo, children, className }: { tipo: string; children: 
   useEffect(() => {
     const el = ref.current;
     if (!el || typeof ResizeObserver === "undefined") return;
-    const medir = () => setLargura(Math.max(280, Math.min(LARGURA_MAX, Math.round(el.clientWidth))));
+    // Largura 0 = bloco ainda fora da tela (content-visibility): mantém a anterior até medir de verdade.
+    const medir = () => { if (el.clientWidth > 0) setLargura(Math.max(280, Math.min(LARGURA_MAX, Math.round(el.clientWidth)))); };
     medir();
     const ro = new ResizeObserver(medir);
     ro.observe(el);
@@ -50,7 +51,7 @@ export function TooltipProvider({ children }: { children: ReactNode }) {
       {children}
       <div
         className="painel-tip"
-        role="tooltip"
+        aria-hidden="true"
         style={{ opacity: tip ? 1 : 0, left: tip ? Math.max(8, tip.x + 274 > largura ? tip.x - 270 : tip.x + 14) : -999, top: tip ? tip.y + 14 : -999 }}
       >
         {tip?.conteudo}

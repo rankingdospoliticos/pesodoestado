@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { startTransition, useEffect, useState } from "react";
 import snapshot from "@/data/painel.json";
 
 /**
@@ -79,20 +79,25 @@ export function usePainelDados(): EstadoDados {
   const [estado, setEstado] = useState<EstadoDados>({ painel: DADOS_EMBUTIDOS, origem: "embutido" });
   useEffect(() => {
     let vivo = true;
-    (async () => {
+    // Espera a primeira pintura e um momento ocioso: a troca dos dados re-renderiza a página inteira.
+    const temOcioso = "requestIdleCallback" in window;
+    const comeca = () => (async () => {
       for (const url of urlsDeDados()) {
         try {
           const p = await buscar(url);
           // Só troca se o arquivo remoto for mais novo que o embutido.
-          if (vivo && p.geradoEm >= DADOS_EMBUTIDOS.geradoEm) setEstado({ painel: p, origem: "remoto", url });
+          if (vivo && p.geradoEm >= DADOS_EMBUTIDOS.geradoEm) startTransition(() => setEstado({ painel: p, origem: "remoto", url }));
           return;
         } catch {
           /* tenta a próxima */
         }
       }
     })();
+    const espera = temOcioso ? window.requestIdleCallback(comeca, { timeout: 2500 }) : window.setTimeout(comeca, 800);
     return () => {
       vivo = false;
+      if (temOcioso) window.cancelIdleCallback(espera);
+      else window.clearTimeout(espera);
     };
   }, []);
   return estado;
