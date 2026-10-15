@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-14T23:54:55.823Z",
+ "geradoEm": "2026-10-15T04:37:38.883Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-14T23:55:06.467Z",
-   "duracaoMs": 10642
+   "coletadoEm": "2026-10-15T04:38:14.200Z",
+   "duracaoMs": 35317
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-14T23:55:11.180Z",
-   "duracaoMs": 4712
+   "coletadoEm": "2026-10-15T04:38:18.494Z",
+   "duracaoMs": 4293
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-14T23:55:35.651Z",
-   "duracaoMs": 24472
+   "coletadoEm": "2026-10-15T04:38:35.652Z",
+   "duracaoMs": 17158
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-14T23:54:55.823Z",
+   "tentadoEm": "2026-10-15T04:37:38.883Z",
    "coletadoEm": "2026-10-14T14:31:22.296Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-14T23:55:53.969Z",
-   "duracaoMs": 360
+   "coletadoEm": "2026-10-15T04:38:53.282Z",
+   "duracaoMs": 121
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-14T23:54:55.823Z"
+   "verificadoEm": "2026-10-15T04:37:38.883Z"
   }
  },
  "dados": {
@@ -1115,7 +1115,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-10-14",
+     "data": "2026-10-15",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
