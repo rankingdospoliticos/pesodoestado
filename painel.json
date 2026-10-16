@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-16T04:30:57.630Z",
+ "geradoEm": "2026-10-16T11:23:10.706Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-16T04:31:30.782Z",
-   "duracaoMs": 33150
+   "coletadoEm": "2026-10-16T11:23:32.902Z",
+   "duracaoMs": 22195
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
-   "status": "ok",
-   "coletadoEm": "2026-10-16T04:31:35.982Z",
-   "duracaoMs": 5200
+   "status": "erro",
+   "erro": "fetch failed",
+   "tentadoEm": "2026-10-16T11:23:10.706Z",
+   "coletadoEm": "2026-10-16T04:31:35.982Z"
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-16T04:31:57.911Z",
-   "duracaoMs": 21929
+   "coletadoEm": "2026-10-16T11:24:31.355Z",
+   "duracaoMs": 21264
   },
   "ibge": {
    "nome": "IBGE (população)",
-   "status": "erro",
-   "erro": "fetch failed",
-   "tentadoEm": "2026-10-16T04:30:57.630Z",
-   "coletadoEm": "2026-10-14T14:31:22.296Z"
+   "status": "ok",
+   "coletadoEm": "2026-10-16T11:24:32.131Z",
+   "duracaoMs": 776
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-16T04:32:16.127Z",
-   "duracaoMs": 170
+   "coletadoEm": "2026-10-16T11:24:32.367Z",
+   "duracaoMs": 236
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-16T04:30:57.630Z"
+   "verificadoEm": "2026-10-16T11:23:10.706Z"
   }
  },
  "dados": {
@@ -1593,10 +1593,10 @@
    "url": "https://www12.senado.leg.br/transparencia",
    "ceaps": {
     "ano": 2026,
-    "total": 24778413,
-    "lancamentos": 15388,
+    "total": 24904927,
+    "lancamentos": 15494,
     "senadoresComGasto": 89,
-    "mediaPorSenador": 278409,
+    "mediaPorSenador": 279831,
     "ultimaDataDocumento": "2026-10-15",
     "porMes": [
      {
@@ -1613,7 +1613,7 @@
      },
      {
       "mes": 4,
-      "valor": 3104711
+      "valor": 3100816
      },
      {
       "mes": 5,
@@ -1621,11 +1621,11 @@
      },
      {
       "mes": 6,
-      "valor": 2778067
+      "valor": 2772719
      },
      {
       "mes": 7,
-      "valor": 2670942
+      "valor": 2653244
      },
      {
       "mes": 8,
@@ -1633,7 +1633,7 @@
      },
      {
       "mes": 9,
-      "valor": 1302411
+      "valor": 1455867
      },
      {
       "mes": 10,
@@ -1647,7 +1647,7 @@
      },
      {
       "nome": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-      "valor": 5822496
+      "valor": 5883089
      },
      {
       "nome": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
@@ -1655,11 +1655,11 @@
      },
      {
       "nome": "Passagens aéreas, aquáticas e terrestres nacionais",
-      "valor": 3749258
+      "valor": 3815179
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3398255
+      "valor": 3398256
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
@@ -1677,35 +1677,35 @@
     "porPartido": [
      {
       "nome": "PSD",
-      "valor": 4059630
+      "valor": 4109747
      },
      {
       "nome": "PL",
-      "valor": 4031465
+      "valor": 4045740
      },
      {
       "nome": "PT",
-      "valor": 3225722
+      "valor": 3237263
      },
      {
       "nome": "PP",
-      "valor": 2320581
+      "valor": 2339796
      },
      {
       "nome": "MDB",
-      "valor": 2021331
+      "valor": 2029729
      },
      {
       "nome": "REPUBLICANOS",
-      "valor": 1680055
+      "valor": 1699892
      },
      {
       "nome": "PSB",
-      "valor": 1554017
+      "valor": 1532535
      },
      {
       "nome": "PODE",
-      "valor": 1078967
+      "valor": 1083177
      },
      {
       "nome": "UNIÃO",
@@ -1721,7 +1721,7 @@
      },
      {
       "nome": "S/Partido",
-      "valor": 133193
+      "valor": 138546
      }
     ],
     "maioresGastos": [
@@ -1730,7 +1730,7 @@
       "nome": "LAÉRCIO OLIVEIRA",
       "partido": "PP",
       "uf": "SE",
-      "valor": 487301
+      "valor": 489042
      },
      {
       "id": 4639,
@@ -1754,11 +1754,18 @@
       "valor": 451545
      },
      {
+      "id": 5917,
+      "nome": "FERNANDO DUEIRE",
+      "partido": "PSD",
+      "uf": "PE",
+      "valor": 451374
+     },
+     {
       "id": 5008,
       "nome": "HUMBERTO COSTA",
       "partido": "PT",
       "uf": "PE",
-      "valor": 450209
+      "valor": 450565
      },
      {
       "id": 5988,
@@ -1768,11 +1775,11 @@
       "valor": 448102
      },
      {
-      "id": 5917,
-      "nome": "FERNANDO DUEIRE",
-      "partido": "PSD",
-      "uf": "PE",
-      "valor": 437443
+      "id": 6341,
+      "nome": "HAMILTON MOURÃO",
+      "partido": "REPUBLICANOS",
+      "uf": "RS",
+      "valor": 444610
      },
      {
       "id": 825,
@@ -1780,13 +1787,6 @@
       "partido": "PT",
       "uf": "RS",
       "valor": 435766
-     },
-     {
-      "id": 6341,
-      "nome": "HAMILTON MOURÃO",
-      "partido": "REPUBLICANOS",
-      "uf": "RS",
-      "valor": 428687
      },
      {
       "id": 4531,
@@ -1800,7 +1800,7 @@
       "nome": "ROGÉRIO CARVALHO",
       "partido": "PT",
       "uf": "SE",
-      "valor": 415494
+      "valor": 417300
      },
      {
       "id": 6331,
@@ -1810,11 +1810,11 @@
       "valor": 414617
      },
      {
-      "id": 6358,
-      "nome": "ANA PAULA LOBATO",
-      "partido": "PSB",
+      "id": 5718,
+      "nome": "ELIZIANE GAMA",
+      "partido": "PSD",
       "uf": "MA",
-      "valor": 397884
+      "valor": 414440
      },
      {
       "id": 4994,
@@ -1859,11 +1859,11 @@
       "valor": 382917
      },
      {
-      "id": 5718,
-      "nome": "ELIZIANE GAMA",
-      "partido": "PSD",
-      "uf": "MA",
-      "valor": 382218
+      "id": 6008,
+      "nome": "GIORDANO",
+      "partido": "PODE",
+      "uf": "SP",
+      "valor": 380078
      }
     ]
    },
@@ -1877,10 +1877,10 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6719,
+    "ativos": 6705,
     "porVinculo": {
      "EFETIVO": 2362,
-     "COMISSIONADO": 4218,
+     "COMISSIONADO": 4204,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
