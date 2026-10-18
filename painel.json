@@ -1,40 +1,41 @@
 {
- "geradoEm": "2026-10-18T04:32:30.559Z",
+ "geradoEm": "2026-10-18T11:03:25.717Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
-   "status": "ok",
-   "coletadoEm": "2026-10-18T04:32:53.704Z",
-   "duracaoMs": 23143
+   "status": "erro",
+   "erro": "Unexpected token '<', \"<?xml vers\"... is not valid JSON",
+   "tentadoEm": "2026-10-18T11:03:25.717Z",
+   "coletadoEm": "2026-10-18T04:32:53.704Z"
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-18T04:32:58.618Z",
-   "duracaoMs": 4914
+   "coletadoEm": "2026-10-18T11:04:39.009Z",
+   "duracaoMs": 4995
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-18T04:33:09.337Z",
-   "duracaoMs": 10718
+   "coletadoEm": "2026-10-18T11:04:56.757Z",
+   "duracaoMs": 17748
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-18T04:33:10.175Z",
-   "duracaoMs": 838
+   "coletadoEm": "2026-10-18T11:04:57.674Z",
+   "duracaoMs": 917
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-18T04:33:10.355Z",
-   "duracaoMs": 180
+   "coletadoEm": "2026-10-18T11:04:58.141Z",
+   "duracaoMs": 466
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-18T04:32:30.559Z"
+   "verificadoEm": "2026-10-18T11:03:25.717Z"
   }
  },
  "dados": {
@@ -1137,7 +1138,7 @@
    "deputadosComGasto": 563,
    "mediaPorDeputado": 247657,
    "ultimaDataDocumento": "2026-10-15",
-   "arquivoAtualizadoEm": "Sat, 17 Oct 2026 06:30:53 GMT",
+   "arquivoAtualizadoEm": "Sun, 18 Oct 2026 06:32:04 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1658,7 +1659,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3444255
+      "valor": 3444256
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
