@@ -1,41 +1,40 @@
 {
- "geradoEm": "2026-10-19T13:13:12.951Z",
+ "geradoEm": "2026-10-19T20:35:06.494Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
-   "status": "erro",
-   "erro": "Unexpected token '<', \"<?xml vers\"... is not valid JSON",
-   "tentadoEm": "2026-10-19T13:13:12.951Z",
-   "coletadoEm": "2026-10-18T04:32:53.704Z"
+   "status": "ok",
+   "coletadoEm": "2026-10-19T20:35:19.309Z",
+   "duracaoMs": 12814
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-19T13:14:54.455Z",
-   "duracaoMs": 4454
+   "coletadoEm": "2026-10-19T20:35:24.027Z",
+   "duracaoMs": 4717
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-19T13:15:08.788Z",
-   "duracaoMs": 14332
+   "coletadoEm": "2026-10-19T20:35:44.737Z",
+   "duracaoMs": 20710
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-19T13:15:09.347Z",
-   "duracaoMs": 558
+   "coletadoEm": "2026-10-19T20:35:45.835Z",
+   "duracaoMs": 1098
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-19T13:15:09.521Z",
-   "duracaoMs": 175
+   "coletadoEm": "2026-10-19T20:35:46.260Z",
+   "duracaoMs": 425
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-19T13:13:12.951Z"
+   "verificadoEm": "2026-10-19T20:35:06.494Z"
   }
  },
  "dados": {
@@ -1115,7 +1114,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-10-18",
+     "data": "2026-10-19",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1659,7 +1658,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3444256
+      "valor": 3444255
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
