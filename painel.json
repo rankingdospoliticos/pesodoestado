@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-10-21T11:47:50.220Z",
+ "geradoEm": "2026-10-21T17:11:18.756Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-21T11:48:29.631Z",
-   "duracaoMs": 39410
+   "coletadoEm": "2026-10-21T17:11:49.600Z",
+   "duracaoMs": 30843
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-21T11:48:33.283Z",
-   "duracaoMs": 3652
+   "coletadoEm": "2026-10-21T17:11:54.493Z",
+   "duracaoMs": 4892
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-21T11:48:41.450Z",
-   "duracaoMs": 8166
+   "coletadoEm": "2026-10-21T17:12:04.551Z",
+   "duracaoMs": 10058
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-10-21T11:48:42.330Z",
-   "duracaoMs": 880
+   "coletadoEm": "2026-10-21T17:12:05.365Z",
+   "duracaoMs": 814
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-21T11:48:42.585Z",
-   "duracaoMs": 255
+   "coletadoEm": "2026-10-21T17:12:05.737Z",
+   "duracaoMs": 372
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-21T11:47:50.220Z"
+   "verificadoEm": "2026-10-21T17:11:18.756Z"
   }
  },
  "dados": {
@@ -1592,11 +1592,11 @@
    "url": "https://www12.senado.leg.br/transparencia",
    "ceaps": {
     "ano": 2026,
-    "total": 25140499,
-    "lancamentos": 15637,
+    "total": 25581530,
+    "lancamentos": 15826,
     "senadoresComGasto": 89,
-    "mediaPorSenador": 282478,
-    "ultimaDataDocumento": "2026-10-15",
+    "mediaPorSenador": 287433,
+    "ultimaDataDocumento": "2026-10-20",
     "porMes": [
      {
       "mes": 1,
@@ -1604,7 +1604,7 @@
      },
      {
       "mes": 2,
-      "valor": 2936353
+      "valor": 2939558
      },
      {
       "mes": 3,
@@ -1616,7 +1616,7 @@
      },
      {
       "mes": 5,
-      "valor": 2954808
+      "valor": 2954908
      },
      {
       "mes": 6,
@@ -1624,49 +1624,49 @@
      },
      {
       "mes": 7,
-      "valor": 2660155
+      "valor": 2666597
      },
      {
       "mes": 8,
-      "valor": 2401631
+      "valor": 2443931
      },
      {
       "mes": 9,
-      "valor": 1556829
+      "valor": 1650416
      },
      {
       "mes": 10,
-      "valor": 402414
+      "valor": 697811
      }
     ],
     "porTipo": [
      {
       "nome": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-      "valor": 6635294
+      "valor": 6748087
      },
      {
       "nome": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-      "valor": 5929086
+      "valor": 5986968
      },
      {
       "nome": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-      "valor": 4154367
+      "valor": 4224588
      },
      {
       "nome": "Passagens aéreas, aquáticas e terrestres nacionais",
-      "valor": 3828790
+      "valor": 3900290
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3444256
+      "valor": 3561406
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
-      "valor": 1001194
+      "valor": 1009710
      },
      {
       "nome": "Não informado",
-      "valor": 146732
+      "valor": 149702
      },
      {
       "nome": "Serviços de Segurança Privada",
@@ -1676,54 +1676,61 @@
     "porPartido": [
      {
       "nome": "PSD",
-      "valor": 4138078
+      "valor": 4276261
      },
      {
       "nome": "PL",
-      "valor": 4078119
+      "valor": 4116124
      },
      {
       "nome": "PT",
-      "valor": 3262126
+      "valor": 3341457
      },
      {
       "nome": "PP",
-      "valor": 2355756
+      "valor": 2388362
      },
      {
       "nome": "MDB",
-      "valor": 2106060
+      "valor": 2112502
      },
      {
       "nome": "REPUBLICANOS",
-      "valor": 1704291
+      "valor": 1716491
      },
      {
       "nome": "PSB",
-      "valor": 1533576
+      "valor": 1536634
      },
      {
       "nome": "PODE",
-      "valor": 1126873
+      "valor": 1228347
      },
      {
       "nome": "UNIÃO",
-      "valor": 851085
+      "valor": 853235
      },
      {
       "nome": "AVANTE",
-      "valor": 382917
+      "valor": 397521
      },
      {
       "nome": "PSDB",
-      "valor": 290968
+      "valor": 294172
      },
      {
       "nome": "S/Partido",
-      "valor": 139252
+      "valor": 144252
      }
     ],
     "maioresGastos": [
+     {
+      "id": 5525,
+      "nome": "OMAR AZIZ",
+      "partido": "PSD",
+      "uf": "AM",
+      "valor": 491592
+     },
      {
       "id": 4811,
       "nome": "LAÉRCIO OLIVEIRA",
@@ -1739,11 +1746,11 @@
       "valor": 478996
      },
      {
-      "id": 5525,
-      "nome": "OMAR AZIZ",
+      "id": 5917,
+      "nome": "FERNANDO DUEIRE",
       "partido": "PSD",
-      "uf": "AM",
-      "valor": 469212
+      "uf": "PE",
+      "valor": 470006
      },
      {
       "id": 5982,
@@ -1757,7 +1764,7 @@
       "nome": "HUMBERTO COSTA",
       "partido": "PT",
       "uf": "PE",
-      "valor": 452566
+      "valor": 453787
      },
      {
       "id": 5985,
@@ -1767,25 +1774,25 @@
       "valor": 451545
      },
      {
-      "id": 5917,
-      "nome": "FERNANDO DUEIRE",
-      "partido": "PSD",
-      "uf": "PE",
-      "valor": 451374
-     },
-     {
       "id": 5988,
       "nome": "SORAYA THRONICKE",
       "partido": "PSB",
       "uf": "MS",
-      "valor": 448102
+      "valor": 451160
      },
      {
       "id": 6341,
       "nome": "HAMILTON MOURÃO",
       "partido": "REPUBLICANOS",
       "uf": "RS",
-      "valor": 445546
+      "valor": 446041
+     },
+     {
+      "id": 5959,
+      "nome": "STYVENSON VALENTIM",
+      "partido": "PODE",
+      "uf": "RN",
+      "valor": 441032
      },
      {
       "id": 825,
@@ -1799,7 +1806,7 @@
       "nome": "JAYME CAMPOS",
       "partido": "UNIÃO",
       "uf": "MT",
-      "valor": 430138
+      "valor": 432288
      },
      {
       "id": 6008,
@@ -1820,7 +1827,7 @@
       "nome": "SERGIO MORO",
       "partido": "PL",
       "uf": "PR",
-      "valor": 414617
+      "valor": 414629
      },
      {
       "id": 5718,
@@ -1830,39 +1837,32 @@
       "valor": 414440
      },
      {
+      "id": 5926,
+      "nome": "LUCAS BARRETO",
+      "partido": "PSD",
+      "uf": "AP",
+      "valor": 397968
+     },
+     {
+      "id": 5942,
+      "nome": "MARCOS DO VAL",
+      "partido": "AVANTE",
+      "uf": "ES",
+      "valor": 397521
+     },
+     {
+      "id": 6338,
+      "nome": "TERESA LEITÃO",
+      "partido": "PT",
+      "uf": "PE",
+      "valor": 395388
+     },
+     {
       "id": 4994,
       "nome": "EDUARDO BRAGA",
       "partido": "MDB",
       "uf": "AM",
       "valor": 393358
-     },
-     {
-      "id": 5998,
-      "nome": "DANIELLA RIBEIRO",
-      "partido": "PP",
-      "uf": "PB",
-      "valor": 391965
-     },
-     {
-      "id": 1173,
-      "nome": "WELLINGTON FAGUNDES",
-      "partido": "PL",
-      "uf": "MT",
-      "valor": 391884
-     },
-     {
-      "id": 6369,
-      "nome": "JUSSARA LIMA",
-      "partido": "PSD",
-      "uf": "PI",
-      "valor": 388903
-     },
-     {
-      "id": 5926,
-      "nome": "LUCAS BARRETO",
-      "partido": "PSD",
-      "uf": "AP",
-      "valor": 383064
      }
     ]
    },
