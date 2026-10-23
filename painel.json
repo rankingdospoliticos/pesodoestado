@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-23T11:37:43.931Z",
+ "geradoEm": "2026-10-23T17:06:09.266Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-23T11:39:03.016Z",
-   "duracaoMs": 79083
+   "coletadoEm": "2026-10-23T17:08:03.782Z",
+   "duracaoMs": 114515
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-23T11:39:08.197Z",
-   "duracaoMs": 5180
+   "coletadoEm": "2026-10-23T17:08:08.957Z",
+   "duracaoMs": 5175
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-23T11:39:28.524Z",
-   "duracaoMs": 20326
+   "coletadoEm": "2026-10-23T17:08:25.764Z",
+   "duracaoMs": 16807
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-23T11:37:43.931Z",
+   "tentadoEm": "2026-10-23T17:06:09.266Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-23T11:40:05.992Z",
-   "duracaoMs": 162
+   "coletadoEm": "2026-10-23T17:09:04.243Z",
+   "duracaoMs": 1169
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-23T11:37:43.931Z"
+   "verificadoEm": "2026-10-23T17:06:09.266Z"
   }
  },
  "dados": {
@@ -1821,7 +1821,7 @@
       "nome": "ROGÉRIO CARVALHO",
       "partido": "PT",
       "uf": "SE",
-      "valor": 417300
+      "valor": 417299
      },
      {
       "id": 6331,
