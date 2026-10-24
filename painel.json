@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-24T04:35:21.671Z",
+ "geradoEm": "2026-10-24T10:59:02.171Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-24T04:35:42.109Z",
-   "duracaoMs": 20436
+   "coletadoEm": "2026-10-24T10:59:22.157Z",
+   "duracaoMs": 19985
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-24T04:35:46.708Z",
-   "duracaoMs": 4599
+   "coletadoEm": "2026-10-24T10:59:26.929Z",
+   "duracaoMs": 4772
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-24T04:35:56.362Z",
-   "duracaoMs": 9654
+   "coletadoEm": "2026-10-24T10:59:47.044Z",
+   "duracaoMs": 20114
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-24T04:35:21.671Z",
+   "tentadoEm": "2026-10-24T10:59:02.171Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-24T04:36:33.603Z",
-   "duracaoMs": 214
+   "coletadoEm": "2026-10-24T11:01:18.226Z",
+   "duracaoMs": 53867
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-24T04:35:21.671Z"
+   "verificadoEm": "2026-10-24T10:59:02.171Z"
   }
  },
  "dados": {
@@ -1138,7 +1138,7 @@
    "deputadosComGasto": 564,
    "mediaPorDeputado": 251301,
    "ultimaDataDocumento": "2026-10-22",
-   "arquivoAtualizadoEm": "Fri, 23 Oct 2026 06:41:52 GMT",
+   "arquivoAtualizadoEm": "Sat, 24 Oct 2026 06:34:19 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1821,7 +1821,7 @@
       "nome": "ROGÉRIO CARVALHO",
       "partido": "PT",
       "uf": "SE",
-      "valor": 417299
+      "valor": 417300
      },
      {
       "id": 6331,
@@ -1877,18 +1877,18 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6725,
+    "ativos": 6723,
     "porVinculo": {
-     "EFETIVO": 2363,
-     "COMISSIONADO": 4223,
+     "EFETIVO": 2364,
+     "COMISSIONADO": 4220,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
    },
-   "terceirizados": 3191,
+   "terceirizados": 3190,
    "moradia": {
     "imovelFuncional": 63,
-    "auxilioMoradia": 1,
+    "auxilioMoradia": 2,
     "senadores": 85
    }
   },
