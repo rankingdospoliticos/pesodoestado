@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-27T22:13:28.933Z",
+ "geradoEm": "2026-10-28T05:41:06.564Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-27T22:13:55.018Z",
-   "duracaoMs": 26084
+   "coletadoEm": "2026-10-28T05:41:27.834Z",
+   "duracaoMs": 21269
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-27T22:13:59.603Z",
-   "duracaoMs": 4585
+   "coletadoEm": "2026-10-28T05:41:32.889Z",
+   "duracaoMs": 5054
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-27T22:14:18.577Z",
-   "duracaoMs": 18973
+   "coletadoEm": "2026-10-28T05:41:54.059Z",
+   "duracaoMs": 21170
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-27T22:13:28.933Z",
+   "tentadoEm": "2026-10-28T05:41:06.564Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-27T22:14:56.142Z",
-   "duracaoMs": 247
+   "coletadoEm": "2026-10-28T05:42:31.688Z",
+   "duracaoMs": 322
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-27T22:13:28.933Z"
+   "verificadoEm": "2026-10-28T05:41:06.564Z"
   }
  },
  "dados": {
@@ -1115,7 +1115,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-10-27",
+     "data": "2026-10-28",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1877,10 +1877,10 @@
     "contrachequesComAbateTeto": 1952
    },
    "pessoal": {
-    "ativos": 6732,
+    "ativos": 6742,
     "porVinculo": {
      "EFETIVO": 2364,
-     "COMISSIONADO": 4229,
+     "COMISSIONADO": 4239,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
