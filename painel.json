@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-29T09:57:11.983Z",
+ "geradoEm": "2026-10-29T18:28:17.860Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-29T09:57:34.235Z",
-   "duracaoMs": 22251
+   "coletadoEm": "2026-10-29T18:28:34.651Z",
+   "duracaoMs": 16789
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-29T09:57:38.560Z",
-   "duracaoMs": 4325
+   "coletadoEm": "2026-10-29T18:28:39.705Z",
+   "duracaoMs": 5053
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-29T09:57:47.216Z",
-   "duracaoMs": 8655
+   "coletadoEm": "2026-10-29T18:28:51.502Z",
+   "duracaoMs": 11797
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-29T09:57:11.983Z",
+   "tentadoEm": "2026-10-29T18:28:17.860Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-29T09:58:24.473Z",
-   "duracaoMs": 137
+   "coletadoEm": "2026-10-29T18:29:41.386Z",
+   "duracaoMs": 12814
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-29T09:57:11.983Z"
+   "verificadoEm": "2026-10-29T18:28:17.860Z"
   }
  },
  "dados": {
@@ -45,10 +45,6 @@
     "nome": "Dívida bruta do governo geral",
     "unidade": "% do PIB",
     "historico": [
-     {
-      "data": "2022-09-01",
-      "valor": 74.15
-     },
      {
       "data": "2022-10-01",
       "valor": 73.7
@@ -236,11 +232,15 @@
      {
       "data": "2026-08-01",
       "valor": 82.87
+     },
+     {
+      "data": "2026-09-01",
+      "valor": 82.93
      }
     ],
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 82.87
+     "data": "2026-09-01",
+     "valor": 82.93
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13762"
    },
@@ -249,8 +249,8 @@
     "nome": "Dívida bruta do governo geral",
     "unidade": "R$ milhões",
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 11054954.37
+     "data": "2026-09-01",
+     "valor": 11113782.53
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=13761"
    },
@@ -259,10 +259,6 @@
     "nome": "Dívida líquida do setor público",
     "unidade": "% do PIB",
     "historico": [
-     {
-      "data": "2022-09-01",
-      "valor": 56.03
-     },
      {
       "data": "2022-10-01",
       "valor": 55.98
@@ -450,11 +446,15 @@
      {
       "data": "2026-08-01",
       "valor": 69.27
+     },
+     {
+      "data": "2026-09-01",
+      "valor": 69.98
      }
     ],
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 69.27
+     "data": "2026-09-01",
+     "valor": 69.98
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=4513"
    },
@@ -463,10 +463,6 @@
     "nome": "Déficit primário do setor público, 12 meses (NFSP)",
     "unidade": "% do PIB",
     "historico": [
-     {
-      "data": "2022-09-01",
-      "valor": -1.85
-     },
      {
       "data": "2022-10-01",
       "valor": -1.75
@@ -654,11 +650,15 @@
      {
       "data": "2026-08-01",
       "valor": 0.62
+     },
+     {
+      "data": "2026-09-01",
+      "valor": 0.52
      }
     ],
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 0.62
+     "data": "2026-09-01",
+     "valor": 0.52
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5793"
    },
@@ -667,8 +667,8 @@
     "nome": "Déficit primário do setor público, 12 meses (NFSP)",
     "unidade": "R$ milhões",
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 82076.76
+     "data": "2026-09-01",
+     "valor": 70121.05
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5078"
    },
@@ -677,10 +677,6 @@
     "nome": "Déficit nominal do setor público, 12 meses",
     "unidade": "% do PIB",
     "historico": [
-     {
-      "data": "2022-09-01",
-      "valor": 4.19
-     },
      {
       "data": "2022-10-01",
       "valor": 4.04
@@ -868,11 +864,15 @@
      {
       "data": "2026-08-01",
       "valor": 9.48
+     },
+     {
+      "data": "2026-09-01",
+      "valor": 9.51
      }
     ],
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 9.48
+     "data": "2026-09-01",
+     "valor": 9.51
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5727"
    },
@@ -881,8 +881,8 @@
     "nome": "Déficit nominal do setor público, 12 meses",
     "unidade": "R$ milhões",
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 1264242.83
+     "data": "2026-09-01",
+     "valor": 1275081.82
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5012"
    },
@@ -891,10 +891,6 @@
     "nome": "Juros nominais do setor público, 12 meses",
     "unidade": "% do PIB",
     "historico": [
-     {
-      "data": "2022-09-01",
-      "valor": 6.04
-     },
      {
       "data": "2022-10-01",
       "valor": 5.79
@@ -1082,11 +1078,15 @@
      {
       "data": "2026-08-01",
       "valor": 8.86
+     },
+     {
+      "data": "2026-09-01",
+      "valor": 8.99
      }
     ],
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 8.86
+     "data": "2026-09-01",
+     "valor": 8.99
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5760"
    },
@@ -1095,8 +1095,8 @@
     "nome": "Juros nominais do setor público, 12 meses",
     "unidade": "R$ milhões",
     "ultimo": {
-     "data": "2026-08-01",
-     "valor": 1182166.07
+     "data": "2026-09-01",
+     "valor": 1204960.77
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=5045"
    },
@@ -1659,7 +1659,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3576726
+      "valor": 3576725
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
@@ -2038,8 +2038,8 @@
    }
   },
   "derivados": {
-   "dividaPorHabitante": 51608,
-   "jurosPorSegundo": 37486
+   "dividaPorHabitante": 51882,
+   "jurosPorSegundo": 38209
   }
  }
 }
