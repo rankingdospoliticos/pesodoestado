@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-31T12:26:57.211Z",
+ "geradoEm": "2026-10-31T19:16:28.326Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T12:27:07.119Z",
-   "duracaoMs": 9906
+   "coletadoEm": "2026-10-31T19:16:53.706Z",
+   "duracaoMs": 25378
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T12:27:10.831Z",
-   "duracaoMs": 3712
+   "coletadoEm": "2026-10-31T19:16:58.214Z",
+   "duracaoMs": 4508
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T12:27:19.771Z",
-   "duracaoMs": 8939
+   "coletadoEm": "2026-10-31T19:17:05.813Z",
+   "duracaoMs": 7598
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-31T12:26:57.211Z",
+   "tentadoEm": "2026-10-31T19:16:28.326Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-31T12:27:57.132Z",
-   "duracaoMs": 239
+   "coletadoEm": "2026-10-31T19:17:43.158Z",
+   "duracaoMs": 151
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-31T12:26:57.211Z"
+   "verificadoEm": "2026-10-31T19:16:28.326Z"
   }
  },
  "dados": {
@@ -1659,7 +1659,7 @@
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3576726
+      "valor": 3576725
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
