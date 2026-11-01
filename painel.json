@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-10-31T19:16:28.326Z",
+ "geradoEm": "2026-11-01T00:07:05.607Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T19:16:53.706Z",
-   "duracaoMs": 25378
+   "coletadoEm": "2026-11-01T00:07:28.138Z",
+   "duracaoMs": 22530
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T19:16:58.214Z",
-   "duracaoMs": 4508
+   "coletadoEm": "2026-11-01T00:07:32.640Z",
+   "duracaoMs": 4502
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-10-31T19:17:05.813Z",
-   "duracaoMs": 7598
+   "coletadoEm": "2026-11-01T00:07:42.173Z",
+   "duracaoMs": 9533
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-10-31T19:16:28.326Z",
+   "tentadoEm": "2026-11-01T00:07:05.607Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-10-31T19:17:43.158Z",
-   "duracaoMs": 151
+   "coletadoEm": "2026-11-01T00:08:20.748Z",
+   "duracaoMs": 1086
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-10-31T19:16:28.326Z"
+   "verificadoEm": "2026-11-01T00:07:05.607Z"
   }
  },
  "dados": {
@@ -1115,7 +1115,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-10-31",
+     "data": "2026-11-01",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1869,12 +1869,12 @@
    },
    "folha": {
     "ano": 2026,
-    "mes": 9,
-    "registros": 11257,
-    "bruto": 335034737,
-    "liquido": 235397257,
-    "abateTeto": 15642362,
-    "contrachequesComAbateTeto": 1952
+    "mes": 10,
+    "registros": 10633,
+    "bruto": 334401847,
+    "liquido": 235012770,
+    "abateTeto": 15527135,
+    "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
     "ativos": 6714,
