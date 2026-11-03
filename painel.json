@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-11-02T21:42:15.729Z",
+ "geradoEm": "2026-11-03T06:45:47.272Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-02T21:43:11.827Z",
-   "duracaoMs": 56096
+   "coletadoEm": "2026-11-03T06:46:07.792Z",
+   "duracaoMs": 20519
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-02T21:43:16.232Z",
-   "duracaoMs": 4405
+   "coletadoEm": "2026-11-03T06:46:24.736Z",
+   "duracaoMs": 16943
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-02T21:43:25.035Z",
-   "duracaoMs": 8802
+   "coletadoEm": "2026-11-03T06:46:33.608Z",
+   "duracaoMs": 8872
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-11-02T21:42:15.729Z",
+   "tentadoEm": "2026-11-03T06:45:47.272Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-02T21:44:02.837Z",
-   "duracaoMs": 713
+   "coletadoEm": "2026-11-03T06:47:11.593Z",
+   "duracaoMs": 891
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-02T21:42:15.729Z"
+   "verificadoEm": "2026-11-03T06:45:47.272Z"
   }
  },
  "dados": {
@@ -1115,7 +1115,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-11-02",
+     "data": "2026-11-03",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1138,7 +1138,7 @@
    "deputadosComGasto": 564,
    "mediaPorDeputado": 258295,
    "ultimaDataDocumento": "2026-10-29",
-   "arquivoAtualizadoEm": "Mon, 02 Nov 2026 10:16:39 GMT",
+   "arquivoAtualizadoEm": "Tue, 03 Nov 2026 06:36:03 GMT",
    "porMes": [
     {
      "mes": 1,
