@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-11-05T17:23:32.200Z",
+ "geradoEm": "2026-11-05T23:37:53.695Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-05T17:23:40.958Z",
-   "duracaoMs": 8756
+   "coletadoEm": "2026-11-05T23:38:03.112Z",
+   "duracaoMs": 9415
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-05T17:23:45.157Z",
-   "duracaoMs": 4198
+   "coletadoEm": "2026-11-05T23:38:07.401Z",
+   "duracaoMs": 4289
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-05T17:24:05.588Z",
-   "duracaoMs": 20430
+   "coletadoEm": "2026-11-05T23:38:16.702Z",
+   "duracaoMs": 9301
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-11-05T17:23:32.200Z",
+   "tentadoEm": "2026-11-05T23:37:53.695Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-05T17:24:56.006Z",
-   "duracaoMs": 13104
+   "coletadoEm": "2026-11-05T23:38:54.059Z",
+   "duracaoMs": 257
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-05T17:23:32.200Z"
+   "verificadoEm": "2026-11-05T23:37:53.695Z"
   }
  },
  "dados": {
