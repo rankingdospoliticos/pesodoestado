@@ -1,41 +1,41 @@
 {
- "geradoEm": "2026-11-06T23:07:15.663Z",
+ "geradoEm": "2026-11-07T05:57:01.918Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-06T23:07:24.882Z",
-   "duracaoMs": 9218
+   "coletadoEm": "2026-11-07T05:57:13.513Z",
+   "duracaoMs": 11594
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-06T23:07:29.178Z",
-   "duracaoMs": 4296
+   "coletadoEm": "2026-11-07T05:57:17.270Z",
+   "duracaoMs": 3757
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-06T23:07:37.141Z",
-   "duracaoMs": 7963
+   "coletadoEm": "2026-11-07T05:57:26.979Z",
+   "duracaoMs": 9709
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-11-06T23:07:15.663Z",
+   "tentadoEm": "2026-11-07T05:57:01.918Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-06T23:08:14.938Z",
-   "duracaoMs": 310
+   "coletadoEm": "2026-11-07T05:58:04.242Z",
+   "duracaoMs": 116
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-06T23:07:15.663Z"
+   "verificadoEm": "2026-11-07T05:57:01.918Z"
   }
  },
  "dados": {
@@ -1115,7 +1115,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-11-06",
+     "data": "2026-11-07",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1885,15 +1885,15 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6722,
+    "ativos": 6714,
     "porVinculo": {
      "EFETIVO": 2364,
-     "COMISSIONADO": 4219,
+     "COMISSIONADO": 4211,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
    },
-   "terceirizados": 3186,
+   "terceirizados": 3185,
    "moradia": {
     "imovelFuncional": 63,
     "auxilioMoradia": 1,
