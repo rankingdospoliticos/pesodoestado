@@ -1,42 +1,42 @@
 {
- "geradoEm": "2026-11-15T16:20:40.481Z",
+ "geradoEm": "2026-11-15T22:47:26.402Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T16:20:49.778Z",
-   "duracaoMs": 9296
+   "coletadoEm": "2026-11-15T22:47:37.855Z",
+   "duracaoMs": 11451
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T16:20:54.879Z",
-   "duracaoMs": 5101
+   "coletadoEm": "2026-11-15T22:47:42.254Z",
+   "duracaoMs": 4399
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T16:21:09.794Z",
-   "duracaoMs": 14915
+   "coletadoEm": "2026-11-15T22:47:51.680Z",
+   "duracaoMs": 9426
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-11-15T16:20:40.481Z",
+   "tentadoEm": "2026-11-15T22:47:26.402Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "erro",
-   "erro": "HTTP 503 em https://api.worldbank.org/v2/country/BRA;WLD;ARG;CHL;MEX;CHN;IND;ZAF;USA;EUU;JPN/indicator/NE.TRD.GNFS.ZS?format=json&mrnev=1&per_page=100",
-   "tentadoEm": "2026-11-15T16:20:40.481Z",
+   "erro": "This operation was aborted",
+   "tentadoEm": "2026-11-15T22:47:26.402Z",
    "coletadoEm": "2026-11-15T06:30:37.575Z"
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-15T16:20:40.481Z"
+   "verificadoEm": "2026-11-15T22:47:26.402Z"
   }
  },
  "dados": {
