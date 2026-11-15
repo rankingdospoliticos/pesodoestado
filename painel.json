@@ -1,41 +1,42 @@
 {
- "geradoEm": "2026-11-15T06:29:35.514Z",
+ "geradoEm": "2026-11-15T16:20:40.481Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T06:29:47.659Z",
-   "duracaoMs": 12144
+   "coletadoEm": "2026-11-15T16:20:49.778Z",
+   "duracaoMs": 9296
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T06:29:51.270Z",
-   "duracaoMs": 3610
+   "coletadoEm": "2026-11-15T16:20:54.879Z",
+   "duracaoMs": 5101
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-15T06:30:00.246Z",
-   "duracaoMs": 8976
+   "coletadoEm": "2026-11-15T16:21:09.794Z",
+   "duracaoMs": 14915
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "erro",
    "erro": "fetch failed",
-   "tentadoEm": "2026-11-15T06:29:35.514Z",
+   "tentadoEm": "2026-11-15T16:20:40.481Z",
    "coletadoEm": "2026-10-22T11:51:58.770Z"
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
-   "status": "ok",
-   "coletadoEm": "2026-11-15T06:30:37.575Z",
-   "duracaoMs": 225
+   "status": "erro",
+   "erro": "HTTP 503 em https://api.worldbank.org/v2/country/BRA;WLD;ARG;CHL;MEX;CHN;IND;ZAF;USA;EUU;JPN/indicator/NE.TRD.GNFS.ZS?format=json&mrnev=1&per_page=100",
+   "tentadoEm": "2026-11-15T16:20:40.481Z",
+   "coletadoEm": "2026-11-15T06:30:37.575Z"
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-15T06:29:35.514Z"
+   "verificadoEm": "2026-11-15T16:20:40.481Z"
   }
  },
  "dados": {
@@ -1138,7 +1139,7 @@
    "deputadosComGasto": 565,
    "mediaPorDeputado": 273247,
    "ultimaDataDocumento": "2026-11-12",
-   "arquivoAtualizadoEm": "Sat, 14 Nov 2026 06:37:04 GMT",
+   "arquivoAtualizadoEm": "Sun, 15 Nov 2026 06:33:26 GMT",
    "porMes": [
     {
      "mes": 1,
