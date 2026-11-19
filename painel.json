@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-11-19T11:38:10.051Z",
+ "geradoEm": "2026-11-19T20:35:25.930Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T11:38:19.374Z",
-   "duracaoMs": 9322
+   "coletadoEm": "2026-11-19T20:35:35.086Z",
+   "duracaoMs": 9154
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T11:38:23.302Z",
-   "duracaoMs": 3927
+   "coletadoEm": "2026-11-19T20:35:38.826Z",
+   "duracaoMs": 3740
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T11:38:30.959Z",
-   "duracaoMs": 7656
+   "coletadoEm": "2026-11-19T20:36:01.077Z",
+   "duracaoMs": 22251
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T11:38:31.351Z",
-   "duracaoMs": 392
+   "coletadoEm": "2026-11-19T20:36:01.345Z",
+   "duracaoMs": 268
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-19T11:39:33.033Z",
-   "duracaoMs": 61682
+   "coletadoEm": "2026-11-19T20:36:01.488Z",
+   "duracaoMs": 143
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-19T11:38:10.051Z"
+   "verificadoEm": "2026-11-19T20:35:25.930Z"
   }
  },
  "dados": {
@@ -1624,7 +1624,7 @@
      },
      {
       "mes": 6,
-      "valor": 2799703
+      "valor": 2799704
      },
      {
       "mes": 7,
@@ -1674,7 +1674,7 @@
      },
      {
       "nome": "Não informado",
-      "valor": 171451
+      "valor": 171450
      },
      {
       "nome": "Serviços de Segurança Privada",
