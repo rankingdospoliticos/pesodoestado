@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-11-19T02:33:29.370Z",
+ "geradoEm": "2026-11-19T11:38:10.051Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T02:33:38.415Z",
-   "duracaoMs": 9044
+   "coletadoEm": "2026-11-19T11:38:19.374Z",
+   "duracaoMs": 9322
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T02:33:42.669Z",
-   "duracaoMs": 4254
+   "coletadoEm": "2026-11-19T11:38:23.302Z",
+   "duracaoMs": 3927
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T02:33:56.340Z",
-   "duracaoMs": 13670
+   "coletadoEm": "2026-11-19T11:38:30.959Z",
+   "duracaoMs": 7656
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-11-19T02:33:56.862Z",
-   "duracaoMs": 522
+   "coletadoEm": "2026-11-19T11:38:31.351Z",
+   "duracaoMs": 392
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-19T02:34:00.500Z",
-   "duracaoMs": 3638
+   "coletadoEm": "2026-11-19T11:39:33.033Z",
+   "duracaoMs": 61682
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-19T02:33:29.370Z"
+   "verificadoEm": "2026-11-19T11:38:10.051Z"
   }
  },
  "dados": {
@@ -1884,18 +1884,18 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6718,
+    "ativos": 6716,
     "porVinculo": {
      "EFETIVO": 2361,
-     "COMISSIONADO": 4218,
+     "COMISSIONADO": 4216,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
    },
-   "terceirizados": 3187,
+   "terceirizados": 3188,
    "moradia": {
     "imovelFuncional": 63,
-    "auxilioMoradia": 1,
+    "auxilioMoradia": 2,
     "senadores": 85
    }
   },
