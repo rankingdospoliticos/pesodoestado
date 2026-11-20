@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-11-20T02:18:48.125Z",
+ "geradoEm": "2026-11-20T11:37:28.283Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-20T02:18:56.995Z",
-   "duracaoMs": 8868
+   "coletadoEm": "2026-11-20T11:37:38.381Z",
+   "duracaoMs": 10097
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-20T02:19:01.281Z",
-   "duracaoMs": 4286
+   "coletadoEm": "2026-11-20T11:37:56.756Z",
+   "duracaoMs": 18374
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-20T02:19:08.988Z",
-   "duracaoMs": 7707
+   "coletadoEm": "2026-11-20T11:38:34.712Z",
+   "duracaoMs": 37956
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-11-20T02:19:09.529Z",
-   "duracaoMs": 541
+   "coletadoEm": "2026-11-20T11:38:35.046Z",
+   "duracaoMs": 334
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-20T02:19:09.660Z",
-   "duracaoMs": 131
+   "coletadoEm": "2026-11-20T11:38:38.914Z",
+   "duracaoMs": 3868
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-20T02:18:48.125Z"
+   "verificadoEm": "2026-11-20T11:37:28.283Z"
   }
  },
  "dados": {
@@ -1132,12 +1132,12 @@
   },
   "camara": {
    "ano": 2026,
-   "total": 157584500,
-   "lancamentos": 126967,
+   "total": 159114996,
+   "lancamentos": 128085,
    "deputadosComGasto": 565,
-   "mediaPorDeputado": 278911,
-   "ultimaDataDocumento": "2026-11-17",
-   "arquivoAtualizadoEm": "Wed, 18 Nov 2026 06:34:22 GMT",
+   "mediaPorDeputado": 281619,
+   "ultimaDataDocumento": "2026-11-19",
+   "arquivoAtualizadoEm": "Fri, 20 Nov 2026 06:38:41 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1161,49 +1161,49 @@
     },
     {
      "mes": 6,
-     "valor": 12689634
+     "valor": 12689834
     },
     {
      "mes": 7,
-     "valor": 11294021
+     "valor": 11322794
     },
     {
      "mes": 8,
-     "valor": 9579006
+     "valor": 9612774
     },
     {
      "mes": 9,
-     "valor": 7732269
+     "valor": 7830739
     },
     {
      "mes": 10,
-     "valor": 14539309
+     "valor": 15576359
     },
     {
      "mes": 11,
-     "valor": 1264823
+     "valor": 1597058
     }
    ],
    "porCategoria": [
     {
      "nome": "DIVULGAÇÃO DA ATIVIDADE PARLAMENTAR",
-     "valor": 59937519
+     "valor": 60524729
     },
     {
      "nome": "LOCAÇÃO OU FRETAMENTO DE VEÍCULOS AUTOMOTORES",
-     "valor": 38060279
+     "valor": 38439644
     },
     {
      "nome": "MANUTENÇÃO DE ESCRITÓRIO DE APOIO À ATIVIDADE PARLAMENTAR",
-     "valor": 28055866
+     "valor": 28379267
     },
     {
      "nome": "COMBUSTÍVEIS E LUBRIFICANTES",
-     "valor": 19709376
+     "valor": 19852743
     },
     {
      "nome": "HOSPEDAGEM ,EXCETO DO PARLAMENTAR NO DISTRITO FEDERAL",
-     "valor": 4062085
+     "valor": 4077345
     },
     {
      "nome": "LOCAÇÃO OU FRETAMENTO DE AERONAVES",
@@ -1211,23 +1211,23 @@
     },
     {
      "nome": "TELEFONIA",
-     "valor": 2152883
+     "valor": 2192159
     },
     {
      "nome": "SERVIÇO DE SEGURANÇA PRESTADO POR EMPRESA ESPECIALIZADA",
-     "valor": 1197904
+     "valor": 1198063
     },
     {
      "nome": "FORNECIMENTO DE ALIMENTAÇÃO DO PARLAMENTAR",
-     "valor": 1026172
+     "valor": 1050983
     },
     {
      "nome": "SERVIÇO DE TÁXI, PEDÁGIO E ESTACIONAMENTO",
-     "valor": 934724
+     "valor": 938404
     },
     {
      "nome": "PASSAGEM AÉREA - REEMBOLSO",
-     "valor": 700587
+     "valor": 706561
     },
     {
      "nome": "PASSAGEM AÉREA - RPA",
@@ -1237,173 +1237,173 @@
    "porPartido": [
     {
      "nome": "PL",
-     "valor": 27685992
+     "valor": 27924195
     },
     {
      "nome": "PT",
-     "valor": 21090297
+     "valor": 21421062
     },
     {
      "nome": "UNIÃO",
-     "valor": 17010859
+     "valor": 17169179
     },
     {
      "nome": "PP",
-     "valor": 14855996
+     "valor": 15014177
     },
     {
      "nome": "PSD",
-     "valor": 14670599
+     "valor": 14783184
     },
     {
      "nome": "REPUBLICANOS",
-     "valor": 13131802
+     "valor": 13269923
     },
     {
      "nome": "MDB",
-     "valor": 11356707
+     "valor": 11444182
     },
     {
      "nome": "PODE",
-     "valor": 9060084
+     "valor": 9152918
     },
     {
      "nome": "PSDB",
-     "valor": 5271286
+     "valor": 5307510
     },
     {
      "nome": "PSB",
-     "valor": 4876518
+     "valor": 4908464
     },
     {
      "nome": "PCdoB",
-     "valor": 3368184
+     "valor": 3375621
     },
     {
      "nome": "PDT",
-     "valor": 3214303
+     "valor": 3235510
     },
     {
      "nome": "PSOL",
-     "valor": 3204544
+     "valor": 3206157
     },
     {
      "nome": "PV",
-     "valor": 2120591
+     "valor": 2134320
     },
     {
      "nome": "SOLIDARIEDADE",
-     "valor": 1258009
+     "valor": 1259574
     }
    ],
    "porUF": [
     {
      "nome": "SP",
-     "valor": 19502301
+     "valor": 19756141
     },
     {
      "nome": "MG",
-     "valor": 16533261
+     "valor": 16699063
     },
     {
      "nome": "BA",
-     "valor": 13039893
+     "valor": 13118085
     },
     {
      "nome": "RJ",
-     "valor": 12880659
+     "valor": 12980258
     },
     {
      "nome": "RS",
-     "valor": 10168954
+     "valor": 10254501
     },
     {
      "nome": "PR",
-     "valor": 9529943
+     "valor": 9666322
     },
     {
      "nome": "PE",
-     "valor": 8038241
+     "valor": 8128744
     },
     {
      "nome": "CE",
-     "valor": 6225050
+     "valor": 6259062
     },
     {
      "nome": "GO",
-     "valor": 5521631
+     "valor": 5576899
     },
     {
      "nome": "MA",
-     "valor": 4816831
+     "valor": 4881079
     },
     {
      "nome": "SC",
-     "valor": 4697007
+     "valor": 4722794
     },
     {
      "nome": "PA",
-     "valor": 4291104
+     "valor": 4321699
     },
     {
      "nome": "PB",
-     "valor": 4039027
+     "valor": 4134278
     },
     {
      "nome": "PI",
-     "valor": 3190947
+     "valor": 3224201
     },
     {
      "nome": "RN",
-     "valor": 3126875
-    },
-    {
-     "nome": "RR",
-     "valor": 3083801
+     "valor": 3148228
     },
     {
      "nome": "AC",
-     "valor": 3078377
+     "valor": 3113644
+    },
+    {
+     "nome": "RR",
+     "valor": 3096110
     },
     {
      "nome": "MS",
-     "valor": 2969337
+     "valor": 2981356
     },
     {
      "nome": "ES",
-     "valor": 2930852
+     "valor": 2951876
     },
     {
      "nome": "RO",
-     "valor": 2770253
+     "valor": 2778871
     },
     {
      "nome": "TO",
-     "valor": 2605990
+     "valor": 2626376
     },
     {
      "nome": "MT",
-     "valor": 2557060
+     "valor": 2578984
     },
     {
      "nome": "AP",
-     "valor": 2547940
-    },
-    {
-     "nome": "AM",
-     "valor": 2266554
+     "valor": 2565023
     },
     {
      "nome": "SE",
-     "valor": 2263078
+     "valor": 2310712
+    },
+    {
+     "nome": "AM",
+     "valor": 2267946
     },
     {
      "nome": "AL",
-     "valor": 2061076
+     "valor": 2083947
     },
     {
      "nome": "DF",
-     "valor": 1977676
+     "valor": 1995624
     }
    ],
    "porFornecedor": [
@@ -1413,7 +1413,7 @@
     },
     {
      "nome": "PANTANAL-VEICULOS LTDA",
-     "valor": 1588714
+     "valor": 1617514
     },
     {
      "nome": "PANTANAL VEÍCULOS LTDA",
@@ -1429,23 +1429,23 @@
     },
     {
      "nome": "LOCALIZA RENT A CAR SA",
-     "valor": 809005
+     "valor": 827148
     },
     {
      "nome": "ELDORADO COMUNICACAO E JORNALISMO LTDA",
-     "valor": 572600
+     "valor": 607600
     },
     {
      "nome": "TELEFONICA BRASIL S.A.",
-     "valor": 549991
+     "valor": 562803
     },
     {
      "nome": "CELULAR FUNCIONAL",
-     "valor": 524278
+     "valor": 543028
     },
     {
      "nome": "AUTO LESTE LTDA",
-     "valor": 518000
+     "valor": 536000
     }
    ],
    "maioresGastos": [
@@ -1454,7 +1454,7 @@
      "nome": "Antonio Andrade",
      "partido": "PSDB",
      "uf": "TO",
-     "valor": 594030
+     "valor": 596017
     },
     {
      "id": 74454,
@@ -1475,21 +1475,21 @@
      "nome": "Zé Adriano",
      "partido": "PP",
      "uf": "AC",
-     "valor": 556942
+     "valor": 557868
     },
     {
      "id": 191923,
      "nome": "Flávio Nogueira",
      "partido": "PT",
      "uf": "PI",
-     "valor": 548429
+     "valor": 549404
     },
     {
      "id": 160556,
      "nome": "Padre João",
      "partido": "PT",
      "uf": "MG",
-     "valor": 537575
+     "valor": 541156
     },
     {
      "id": 74090,
@@ -1510,14 +1510,14 @@
      "nome": "Robinson Faria",
      "partido": "PP",
      "uf": "RN",
-     "valor": 519140
+     "valor": 519759
     },
     {
      "id": 178929,
      "nome": "Diego Garcia",
      "partido": "UNIÃO",
      "uf": "PR",
-     "valor": 516371
+     "valor": 516481
     },
     {
      "id": 74374,
@@ -1531,14 +1531,21 @@
      "nome": "Zé Haroldo Cathedral",
      "partido": "UNIÃO",
      "uf": "RR",
-     "valor": 500433
+     "valor": 503433
+    },
+    {
+     "id": 66828,
+     "nome": "Fausto Pinato",
+     "partido": "UNIÃO",
+     "uf": "SP",
+     "valor": 502375
     },
     {
      "id": 204426,
      "nome": "Carlos Veras",
      "partido": "PT",
      "uf": "PE",
-     "valor": 498746
+     "valor": 500858
     },
     {
      "id": 220617,
@@ -1552,7 +1559,7 @@
      "nome": "Keniston Braga",
      "partido": "MDB",
      "uf": "PA",
-     "valor": 491028
+     "valor": 491145
     },
     {
      "id": 69871,
@@ -1569,25 +1576,18 @@
      "valor": 484513
     },
     {
+     "id": 220551,
+     "nome": "Franciane Bayer",
+     "partido": "REPUBLICANOS",
+     "uf": "RS",
+     "valor": 482006
+    },
+    {
      "id": 74060,
      "nome": "Daniel Almeida",
      "partido": "PCdoB",
      "uf": "BA",
      "valor": 479932
-    },
-    {
-     "id": 150418,
-     "nome": "Márcio Marinho",
-     "partido": "REPUBLICANOS",
-     "uf": "BA",
-     "valor": 475412
-    },
-    {
-     "id": 204567,
-     "nome": "Raimundo Costa",
-     "partido": "PSD",
-     "uf": "BA",
-     "valor": 475141
     }
    ],
    "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
@@ -1596,10 +1596,10 @@
    "url": "https://www12.senado.leg.br/transparencia",
    "ceaps": {
     "ano": 2026,
-    "total": 27796596,
-    "lancamentos": 16912,
+    "total": 28275409,
+    "lancamentos": 17217,
     "senadoresComGasto": 91,
-    "mediaPorSenador": 305457,
+    "mediaPorSenador": 310719,
     "ultimaDataDocumento": "2026-11-16",
     "porMes": [
      {
@@ -1612,7 +1612,7 @@
      },
      {
       "mes": 3,
-      "valor": 3708917
+      "valor": 3704766
      },
      {
       "mes": 4,
@@ -1624,7 +1624,7 @@
      },
      {
       "mes": 6,
-      "valor": 2799704
+      "valor": 2799703
      },
      {
       "mes": 7,
@@ -1636,91 +1636,91 @@
      },
      {
       "mes": 9,
-      "valor": 1905786
+      "valor": 1913073
      },
      {
       "mes": 10,
-      "valor": 2076251
+      "valor": 2357580
      },
      {
       "mes": 11,
-      "valor": 477525
+      "valor": 671872
      }
     ],
     "porTipo": [
      {
       "nome": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
-      "valor": 7468573
+      "valor": 7540607
      },
      {
       "nome": "Passagens aéreas, aquáticas e terrestres nacionais",
-      "valor": 5478191
+      "valor": 5683648
      },
      {
       "nome": "Contratação de consultorias, assessorias, pesquisas, trabalhos técnicos e outros serviços de apoio ao exercício do mandato parlamentar",
-      "valor": 5211446
+      "valor": 5230114
      },
      {
       "nome": "Aluguel de imóveis para escritório político, compreendendo despesas concernentes a eles",
-      "valor": 4584618
+      "valor": 4638442
      },
      {
       "nome": "Divulgação da atividade parlamentar",
-      "valor": 3779581
+      "valor": 3892381
      },
      {
       "nome": "Aquisição de material de consumo para uso no escritório político, inclusive aquisição ou locação de software, despesas postais, aquisição de publicações, locação de móveis e de equipamentos",
-      "valor": 1101957
+      "valor": 1112912
      },
      {
       "nome": "Não informado",
-      "valor": 171450
+      "valor": 176330
      },
      {
       "nome": "Serviços de Segurança Privada",
-      "valor": 780
+      "valor": 975
      }
     ],
     "porPartido": [
      {
-      "nome": "PSD",
-      "valor": 4683682
+      "nome": "PL",
+      "valor": 4554628
      },
      {
-      "nome": "PL",
-      "valor": 4474868
+      "nome": "PSD",
+      "valor": 4439248
      },
      {
       "nome": "PT",
-      "valor": 3721600
+      "valor": 3743269
      },
      {
       "nome": "PP",
-      "valor": 2659728
+      "valor": 2684627
      },
      {
       "nome": "MDB",
-      "valor": 2327341
+      "valor": 2369573
      },
      {
       "nome": "REPUBLICANOS",
-      "valor": 1829467
+      "valor": 1874801
      },
      {
       "nome": "PSB",
-      "valor": 1649231
+      "valor": 1667456
      },
      {
       "nome": "PODE",
-      "valor": 1308061
+      "valor": 1309957
      },
      {
       "nome": "UNIÃO",
-      "valor": 865589
+      "valor": 869678
      },
      {
       "nome": "AVANTE",
-      "valor": 423058
+      "valor": 450338
      },
      {
       "nome": "PSDB",
@@ -1728,7 +1728,7 @@
      },
      {
       "nome": "S/Partido",
-      "valor": 170000
+      "valor": 170706
      }
     ],
     "maioresGastos": [
@@ -1737,14 +1737,14 @@
       "nome": "OMAR AZIZ",
       "partido": "PSD",
       "uf": "AM",
-      "valor": 533405
+      "valor": 538583
      },
      {
       "id": 4811,
       "nome": "LAÉRCIO OLIVEIRA",
       "partido": "PP",
       "uf": "SE",
-      "valor": 531061
+      "valor": 536878
      },
      {
       "id": 4639,
@@ -1765,28 +1765,42 @@
       "nome": "RANDOLFE RODRIGUES",
       "partido": "PT",
       "uf": "AP",
-      "valor": 491885
+      "valor": 495014
+     },
+     {
+      "id": 5718,
+      "nome": "ELIZIANE GAMA",
+      "partido": "PSD",
+      "uf": "MA",
+      "valor": 493753
      },
      {
       "id": 5988,
       "nome": "SORAYA THRONICKE",
       "partido": "PSB",
       "uf": "MS",
-      "valor": 486647
-     },
-     {
-      "id": 825,
-      "nome": "PAULO PAIM",
-      "partido": "PT",
-      "uf": "RS",
-      "valor": 482414
+      "valor": 490170
      },
      {
       "id": 6341,
       "nome": "HAMILTON MOURÃO",
       "partido": "REPUBLICANOS",
       "uf": "RS",
-      "valor": 480712
+      "valor": 483186
+     },
+     {
+      "id": 825,
+      "nome": "PAULO PAIM",
+      "partido": "PT",
+      "uf": "RS",
+      "valor": 482919
+     },
+     {
+      "id": 5352,
+      "nome": "ROGÉRIO CARVALHO",
+      "partido": "PT",
+      "uf": "SE",
+      "valor": 480788
      },
      {
       "id": 5982,
@@ -1800,28 +1814,14 @@
       "nome": "HUMBERTO COSTA",
       "partido": "PT",
       "uf": "PE",
-      "valor": 478980
-     },
-     {
-      "id": 5352,
-      "nome": "ROGÉRIO CARVALHO",
-      "partido": "PT",
-      "uf": "SE",
-      "valor": 472585
+      "valor": 479574
      },
      {
       "id": 5917,
       "nome": "FERNANDO DUEIRE",
       "partido": "PSD",
       "uf": "PE",
-      "valor": 468522
-     },
-     {
-      "id": 5718,
-      "nome": "ELIZIANE GAMA",
-      "partido": "PSD",
-      "uf": "MA",
-      "valor": 464272
+      "valor": 475862
      },
      {
       "id": 1173,
@@ -1849,28 +1849,28 @@
       "nome": "IRAJÁ",
       "partido": "PSD",
       "uf": "TO",
-      "valor": 450525
+      "valor": 457010
+     },
+     {
+      "id": 6331,
+      "nome": "SERGIO MORO",
+      "partido": "PL",
+      "uf": "PR",
+      "valor": 452371
      },
      {
       "id": 6008,
       "nome": "GIORDANO",
       "partido": "PODE",
       "uf": "SP",
-      "valor": 450078
+      "valor": 451973
      },
      {
-      "id": 285,
-      "nome": "MARCIO BITTAR",
-      "partido": "PL",
-      "uf": "AC",
-      "valor": 440611
-     },
-     {
-      "id": 4994,
-      "nome": "EDUARDO BRAGA",
-      "partido": "MDB",
-      "uf": "AM",
-      "valor": 440029
+      "id": 5942,
+      "nome": "MARCOS DO VAL",
+      "partido": "AVANTE",
+      "uf": "ES",
+      "valor": 450338
      }
     ]
    },
@@ -1884,19 +1884,19 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6716,
+    "ativos": 6709,
     "porVinculo": {
      "EFETIVO": 2361,
-     "COMISSIONADO": 4216,
-     "PARLAMENTAR": 84,
+     "COMISSIONADO": 4210,
+     "PARLAMENTAR": 83,
      "REQUISITADO": 55
     }
    },
-   "terceirizados": 3188,
+   "terceirizados": 3212,
    "moradia": {
     "imovelFuncional": 63,
     "auxilioMoradia": 2,
-    "senadores": 85
+    "senadores": 84
    }
   },
   "ibge": {
