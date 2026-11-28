@@ -1,40 +1,40 @@
 {
- "geradoEm": "2026-11-27T21:25:48.231Z",
+ "geradoEm": "2026-11-28T07:46:45.803Z",
  "fontes": {
   "bcb": {
    "nome": "Banco Central (SGS)",
    "status": "ok",
-   "coletadoEm": "2026-11-27T21:25:58.265Z",
-   "duracaoMs": 10032
+   "coletadoEm": "2026-11-28T07:47:03.799Z",
+   "duracaoMs": 17995
   },
   "camara": {
    "nome": "Câmara dos Deputados (cota parlamentar)",
    "status": "ok",
-   "coletadoEm": "2026-11-27T21:26:03.301Z",
-   "duracaoMs": 5036
+   "coletadoEm": "2026-11-28T07:47:13.926Z",
+   "duracaoMs": 10126
   },
   "senado": {
    "nome": "Senado Federal (dados abertos administrativos)",
    "status": "ok",
-   "coletadoEm": "2026-11-27T21:26:45.158Z",
-   "duracaoMs": 41856
+   "coletadoEm": "2026-11-28T07:47:50.030Z",
+   "duracaoMs": 36104
   },
   "ibge": {
    "nome": "IBGE (população)",
    "status": "ok",
-   "coletadoEm": "2026-11-27T21:26:46.075Z",
-   "duracaoMs": 917
+   "coletadoEm": "2026-11-28T07:47:51.000Z",
+   "duracaoMs": 970
   },
   "bancoMundial": {
    "nome": "Banco Mundial",
    "status": "ok",
-   "coletadoEm": "2026-11-27T21:26:46.702Z",
-   "duracaoMs": 627
+   "coletadoEm": "2026-11-28T07:47:51.095Z",
+   "duracaoMs": 95
   },
   "emendas": {
    "nome": "Portal da Transparência (emendas)",
    "status": "sem-chave",
-   "verificadoEm": "2026-11-27T21:25:48.231Z"
+   "verificadoEm": "2026-11-28T07:46:45.803Z"
   }
  },
  "dados": {
@@ -1114,7 +1114,7 @@
     "nome": "Meta da taxa Selic",
     "unidade": "% ao ano",
     "ultimo": {
-     "data": "2026-11-27",
+     "data": "2026-11-28",
      "valor": 13.75
     },
     "url": "https://www3.bcb.gov.br/sgspub/consultarvalores/consultarValoresSeries.do?method=consultarValores&optSelecionaSerie=432"
@@ -1137,7 +1137,7 @@
    "deputadosComGasto": 565,
    "mediaPorDeputado": 290392,
    "ultimaDataDocumento": "2026-11-26",
-   "arquivoAtualizadoEm": "Fri, 27 Nov 2026 06:42:18 GMT",
+   "arquivoAtualizadoEm": "Sat, 28 Nov 2026 06:39:21 GMT",
    "porMes": [
     {
      "mes": 1,
@@ -1884,15 +1884,15 @@
     "contrachequesComAbateTeto": 1915
    },
    "pessoal": {
-    "ativos": 6699,
+    "ativos": 6697,
     "porVinculo": {
      "EFETIVO": 2358,
-     "COMISSIONADO": 4202,
+     "COMISSIONADO": 4200,
      "PARLAMENTAR": 84,
      "REQUISITADO": 55
     }
    },
-   "terceirizados": 3210,
+   "terceirizados": 3211,
    "moradia": {
     "imovelFuncional": 63,
     "auxilioMoradia": 4,
